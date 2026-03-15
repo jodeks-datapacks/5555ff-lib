@@ -1,0 +1,2 @@
+execute if function afkannouncer:app/load_message run function jodek:app/check/installed/afk_announcer
+execute unless function afkannouncer:app/load_message run function jodek:app/check/not_installed/afk_announcer

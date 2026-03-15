@@ -1,6 +1,6 @@
 {
   "values": [
-    "armorstandarms:app/setup",
-    "armorstandarms:app/load_message"
+    "jodek:app/setup",
+    "jodek:app/load_message"
   ]
 }

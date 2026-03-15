@@ -7,11 +7,11 @@
 		"supported_formats": [80,999],
     "description": [
       {
-        "text": "\"Armor Stand Arms\" (armorstandarms)"
+        "text": "\"5555ff lib\" (jodek)"
       },
       "\n",
       {
-        "text": "Adds arms to armor stands by default",
+        "text": "Library used in Jodek's projects",
         "color": "#aaaaaa"
       },
       "\n\n",

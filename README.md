@@ -1,6 +1,6 @@
 <div align="center">
   
-![minecraft datapack armor stand arms mod auto arms armor stand arm](https://raw.githubusercontent.com/jodeks-datapacks/Assets/main/uploads/armorstandarmsv2.png)
+![minecraft datapack 5555ff lib mod auto arms armor stand arm](https://raw.githubusercontent.com/jodeks-datapacks/Assets/main/uploads/jodekv2.png)
 
 </div>
 
@@ -8,7 +8,7 @@
 
 [![jodeks discord - discord badge - pixel badge - pixel discord badge - jodeks datapacks - datapacks discord](https://raw.githubusercontent.com/jodeks-datapacks/Assets/main/uploads/Discord.png)](https://discord.gg/z2n3qTzQY6)&nbsp;&nbsp;
 [![matrix - datapacks matrix - jodeks datapacks matrix](https://raw.githubusercontent.com/jodeks-datapacks/Assets/main/uploads/Matrix.png)](https://matrix.to/#/#jodeks_datapacks:matrix.org)&nbsp;&nbsp;
-[![armor stand arms minecraft datapack github issues](https://raw.githubusercontent.com/jodeks-datapacks/Assets/main/uploads/GH_Issues.png)](https://github.com/jodeks-datapacks/Armor-Stand-Arms/issues)&nbsp;&nbsp;
+[![5555ff lib minecraft datapack github issues](https://raw.githubusercontent.com/jodeks-datapacks/Assets/main/uploads/GH_Issues.png)](https://github.com/jodeks-datapacks/5555ff-lib/issues)&nbsp;&nbsp;
 [![jodeks datapacks kofi - jodek kofi - minecraft datapack kofi donation](https://raw.githubusercontent.com/jodeks-datapacks/Assets/main/uploads/Kofi.png)](https://ko-fi.com/jodek)&nbsp;&nbsp;
 [![github sponsor jodek donation datapacks minecraft](https://raw.githubusercontent.com/jodeks-datapacks/Assets/main/uploads/GH_Sponsor_Pink.png)](https://github.com/sponsors/Jodekq)
 
@@ -20,20 +20,20 @@
 
 **2.** [1.21+] Shift + right click an armor stand to show / hide the arms
 
-**3.** [1.21.6+] Settings with `/trigger armorstandarms.config`
+**3.** [1.21.6+] Settings with `/trigger jodek.config`
 
   - Enable / disable the shift + right click feature
 
 **Remove all arms**
 
 ```
-/function armorstandarms:app/arms/remove_all
+/function jodek:app/arms/remove_all
 ```
 
 **Show all arms**
 
 ```
-/function armorstandarms:app/arms/show_all
+/function jodek:app/arms/show_all
 ```
 
 ## Showcase
