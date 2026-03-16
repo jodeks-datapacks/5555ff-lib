@@ -1,0 +1,15 @@
+scoreboard players set &craft_elytra jodek.installed 1
+
+data modify storage jodek:root data.craft_elytra.installed set value 1
+execute unless data storage jodek:root data.craft_elytra.load_message run data modify storage jodek:root data.craft_elytra.load_message set value 1
+execute unless data storage jodek:root data.craft_elytra.advancements run data modify storage jodek:root data.craft_elytra.advancements set value 1
+
+data modify storage jodek:root data.craft_elytra.dialog_load_message set value "$(dialog_load_message)"
+data modify storage jodek:root data.craft_elytra.dialog_advancements set value "$(dialog_advancements)"
+
+data modify storage jodek:root data.craft_elytra.status set value jodek.installed
+data modify storage jodek:root data.craft_elytra.status_fallback set value Installed
+data modify storage jodek:root data.craft_elytra.color set value green
+
+data modify storage jodek:root data.craft_elytra_unicode set value "✓"
+data modify storage jodek:root data.craft_elytra_color set value green

@@ -1,0 +1,15 @@
+scoreboard players set &villagers_buy_ender_pearls jodek.installed 1
+
+data modify storage jodek:root data.villagers_buy_ender_pearls.installed set value 1
+execute unless data storage jodek:root data.villagers_buy_ender_pearls.load_message run data modify storage jodek:root data.villagers_buy_ender_pearls.load_message set value 1
+execute unless data storage jodek:root data.villagers_buy_ender_pearls.advancements run data modify storage jodek:root data.villagers_buy_ender_pearls.advancements set value 1
+
+data modify storage jodek:root data.villagers_buy_ender_pearls.dialog_load_message set value "$(dialog_load_message)"
+data modify storage jodek:root data.villagers_buy_ender_pearls.dialog_advancements set value "$(dialog_advancements)"
+
+data modify storage jodek:root data.villagers_buy_ender_pearls.status set value jodek.installed
+data modify storage jodek:root data.villagers_buy_ender_pearls.status_fallback set value Installed
+data modify storage jodek:root data.villagers_buy_ender_pearls.color set value green
+
+data modify storage jodek:root data.villagers_buy_ender_pearls_unicode set value "✓"
+data modify storage jodek:root data.villagers_buy_ender_pearls_color set value green
