@@ -13,13 +13,13 @@ function jodek:image/set_image_data {\
   ],\
   background_color: "#303030",\
   description: [\
-    "5555ff lib",\
-    {text: "Library used in Jodek's projects", color: "#aaaaaa"},\
+    {text: "5555ff lib"},\
+    {translate: "5555ff_lib.description", text: "Library used in Jodek's projects"},\
     "",\
-    [{text: "Datapack version: ", color: "#00a800"}, {text: "v2.5.5", color: "#54fc54"}],\
-    [{text: "Game version: ", color: "#00a800"}, {text: "1.21.6+", color: "#54fc54"}],\
+    [{translate: "jodek.datapack_version", fallback: "Datapack version: ", color: "#00a800"}, {text: "v2.5.5", color: "#54fc54"}],\
+    [{translate: "jodek.game_version", fallback: "Game version: ", color: "#00a800"}, {text: "1.21.6+", color: "#54fc54"}],\
     "",\
-    [{text: "By ", color: "#fcfcfc"}, {text: "Jodek", color: "#fcfc54"}],\
+    [{translate: "jodek.by", fallback: "By ", color: "#fcfcfc"}, {text: "Jodek", color: "#fcfc54"}],\
     {text: "modrinth.com/datapack/5555ff-lib", color: "#a800a8"},\
     "",\
     "",\
