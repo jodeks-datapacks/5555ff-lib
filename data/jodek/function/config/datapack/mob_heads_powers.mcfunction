@@ -54,7 +54,17 @@ $dialog show @s {\
       },\
       "action": {\
         "type": "minecraft:run_command",\
-        "command": "function mob_heads_powers/config/dialog_config"\
+        "command": "function mob_heads_powers:config/dialog_config with storage mob_heads_powers:root data"\
+      }\
+    },\
+    {\
+      "label": {\
+        "translate": "jodek.uninstall",\
+        "fallback": "Uninstall"\
+      },\
+      "action": {\
+        "type": "minecraft:run_command",\
+        "command": "function jodek:app/uninstall/mob_heads_powers"\
       }\
     },\
     {\

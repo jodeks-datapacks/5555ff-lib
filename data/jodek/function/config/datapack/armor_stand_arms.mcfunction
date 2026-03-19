@@ -54,7 +54,17 @@ $dialog show @s {\
       },\
       "action": {\
         "type": "minecraft:run_command",\
-        "command": "function armor_stand_arms/config/dialog_config"\
+        "command": "function armor_stand_arms:config/dialog_config with storage armor_stand_arms:root data"\
+      }\
+    },\
+    {\
+      "label": {\
+        "translate": "jodek.uninstall",\
+        "fallback": "Uninstall"\
+      },\
+      "action": {\
+        "type": "minecraft:run_command",\
+        "command": "function jodek:app/uninstall/armor_stand_arms"\
       }\
     },\
     {\

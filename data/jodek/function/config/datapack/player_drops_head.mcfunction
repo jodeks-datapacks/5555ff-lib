@@ -54,7 +54,17 @@ $dialog show @s {\
       },\
       "action": {\
         "type": "minecraft:run_command",\
-        "command": "function player_drops_head/config/dialog_config"\
+        "command": "function player_drops_head:config/dialog_config with storage player_drops_head:root data"\
+      }\
+    },\
+    {\
+      "label": {\
+        "translate": "jodek.uninstall",\
+        "fallback": "Uninstall"\
+      },\
+      "action": {\
+        "type": "minecraft:run_command",\
+        "command": "function jodek:app/uninstall/player_drops_head"\
       }\
     },\
     {\

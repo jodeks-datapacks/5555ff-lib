@@ -54,7 +54,17 @@ $dialog show @s {\
       },\
       "action": {\
         "type": "minecraft:run_command",\
-        "command": "function sleep/config/dialog_config"\
+        "command": "function sleep:config/dialog_config with storage sleep:root data"\
+      }\
+    },\
+    {\
+      "label": {\
+        "translate": "jodek.uninstall",\
+        "fallback": "Uninstall"\
+      },\
+      "action": {\
+        "type": "minecraft:run_command",\
+        "command": "function jodek:app/uninstall/sleep"\
       }\
     },\
     {\

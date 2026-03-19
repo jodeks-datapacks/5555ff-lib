@@ -48,6 +48,16 @@ $dialog show @s {\
   "columns": 1,\
   "actions": [\
     {\
+      "label": {\
+        "translate": "jodek.uninstall",\
+        "fallback": "Uninstall"\
+      },\
+      "action": {\
+        "type": "minecraft:run_command",\
+        "command": "function jodek:app/uninstall/villagers_buy_ender_pearls"\
+      }\
+    },\
+    {\
       "label": "Modrinth",\
       "action": {\
         "type": "minecraft:open_url",\

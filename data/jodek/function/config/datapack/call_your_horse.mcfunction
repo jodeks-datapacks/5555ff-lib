@@ -54,7 +54,17 @@ $dialog show @s {\
       },\
       "action": {\
         "type": "minecraft:run_command",\
-        "command": "function call_your_horse/config/dialog_config"\
+        "command": "function call_your_horse:config/dialog_config with storage call_your_horse:root data"\
+      }\
+    },\
+    {\
+      "label": {\
+        "translate": "jodek.uninstall",\
+        "fallback": "Uninstall"\
+      },\
+      "action": {\
+        "type": "minecraft:run_command",\
+        "command": "function jodek:app/uninstall/call_your_horse"\
       }\
     },\
     {\

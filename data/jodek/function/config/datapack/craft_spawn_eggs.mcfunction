@@ -54,7 +54,17 @@ $dialog show @s {\
       },\
       "action": {\
         "type": "minecraft:run_command",\
-        "command": "function craft_spawn_eggs/config/dialog_config"\
+        "command": "function craft_spawn_eggs:config/dialog_config with storage craft_spawn_eggs:root data"\
+      }\
+    },\
+    {\
+      "label": {\
+        "translate": "jodek.uninstall",\
+        "fallback": "Uninstall"\
+      },\
+      "action": {\
+        "type": "minecraft:run_command",\
+        "command": "function jodek:app/uninstall/craft_spawn_eggs"\
       }\
     },\
     {\

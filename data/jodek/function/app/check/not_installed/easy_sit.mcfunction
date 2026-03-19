@@ -1,8 +1,8 @@
 scoreboard players set &easy_sit jodek.installed 0
 
 data modify storage jodek:root data.easy_sit.installed set value 0
-data modify storage jodek:root data.easy_sit.load_message set value 0
-data modify storage jodek:root data.easy_sit.advancement set value 0
+execute unless data storage jodek:root data.easy_sit.load_message run data modify storage jodek:root data.easy_sit.load_message set value 0
+execute unless data storage jodek:root data.easy_sit.advancements run data modify storage jodek:root data.easy_sit.advancements set value 0
 
 data modify storage jodek:root data.easy_sit.dialog_load_message set value "$(dialog_load_message)"
 data modify storage jodek:root data.easy_sit.dialog_advancements set value "$(dialog_advancements)"
@@ -13,5 +13,3 @@ data modify storage jodek:root data.easy_sit.color set value red
 
 data modify storage jodek:root data.easy_sit_unicode set value "✕"
 data modify storage jodek:root data.easy_sit_color set value red
-
-function jodek:app/uninstall/easy_sit

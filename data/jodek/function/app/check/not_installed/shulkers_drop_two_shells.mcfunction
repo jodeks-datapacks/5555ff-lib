@@ -1,8 +1,8 @@
 scoreboard players set &shulkers_drop_two_shells jodek.installed 0
 
 data modify storage jodek:root data.shulkers_drop_two_shells.installed set value 0
-data modify storage jodek:root data.shulkers_drop_two_shells.load_message set value 0
-data modify storage jodek:root data.shulkers_drop_two_shells.advancement set value 0
+execute unless data storage jodek:root data.shulkers_drop_two_shells.load_message run data modify storage jodek:root data.shulkers_drop_two_shells.load_message set value 0
+execute unless data storage jodek:root data.shulkers_drop_two_shells.advancements run data modify storage jodek:root data.shulkers_drop_two_shells.advancements set value 0
 
 data modify storage jodek:root data.shulkers_drop_two_shells.dialog_load_message set value "$(dialog_load_message)"
 data modify storage jodek:root data.shulkers_drop_two_shells.dialog_advancements set value "$(dialog_advancements)"
@@ -13,5 +13,3 @@ data modify storage jodek:root data.shulkers_drop_two_shells.color set value red
 
 data modify storage jodek:root data.shulkers_drop_two_shells_unicode set value "✕"
 data modify storage jodek:root data.shulkers_drop_two_shells_color set value red
-
-function jodek:app/uninstall/shulkers_drop_two_shells

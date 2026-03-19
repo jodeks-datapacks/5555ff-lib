@@ -54,7 +54,17 @@ $dialog show @s {\
       },\
       "action": {\
         "type": "minecraft:run_command",\
-        "command": "function mineable_trial_spawner/config/dialog_config"\
+        "command": "function mineable_trial_spawner:config/dialog_config with storage mineable_trial_spawner:root data"\
+      }\
+    },\
+    {\
+      "label": {\
+        "translate": "jodek.uninstall",\
+        "fallback": "Uninstall"\
+      },\
+      "action": {\
+        "type": "minecraft:run_command",\
+        "command": "function jodek:app/uninstall/mineable_trial_spawner"\
       }\
     },\
     {\

@@ -1,8 +1,8 @@
 scoreboard players set &mine_glass_without_silk_touch jodek.installed 0
 
 data modify storage jodek:root data.mine_glass_without_silk_touch.installed set value 0
-data modify storage jodek:root data.mine_glass_without_silk_touch.load_message set value 0
-data modify storage jodek:root data.mine_glass_without_silk_touch.advancement set value 0
+execute unless data storage jodek:root data.mine_glass_without_silk_touch.load_message run data modify storage jodek:root data.mine_glass_without_silk_touch.load_message set value 0
+execute unless data storage jodek:root data.mine_glass_without_silk_touch.advancements run data modify storage jodek:root data.mine_glass_without_silk_touch.advancements set value 0
 
 data modify storage jodek:root data.mine_glass_without_silk_touch.dialog_load_message set value "$(dialog_load_message)"
 data modify storage jodek:root data.mine_glass_without_silk_touch.dialog_advancements set value "$(dialog_advancements)"
@@ -13,5 +13,3 @@ data modify storage jodek:root data.mine_glass_without_silk_touch.color set valu
 
 data modify storage jodek:root data.mine_glass_without_silk_touch_unicode set value "✕"
 data modify storage jodek:root data.mine_glass_without_silk_touch_color set value red
-
-function jodek:app/uninstall/mine_glass_without_silk_touch

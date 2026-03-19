@@ -54,7 +54,17 @@ $dialog show @s {\
       },\
       "action": {\
         "type": "minecraft:run_command",\
-        "command": "function bigger_stack_size/config/dialog_config"\
+        "command": "function bigger_stack_size:config/dialog_config with storage bigger_stack_size:root data"\
+      }\
+    },\
+    {\
+      "label": {\
+        "translate": "jodek.uninstall",\
+        "fallback": "Uninstall"\
+      },\
+      "action": {\
+        "type": "minecraft:run_command",\
+        "command": "function jodek:app/uninstall/bigger_stack_size"\
       }\
     },\
     {\

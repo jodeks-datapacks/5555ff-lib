@@ -1,44 +1,58 @@
 scoreboard players set @a jodek.config 0
 
+dialog clear @s
+
 $dialog show @s {\
   "type": "minecraft:multi_action",\
   "title": "Jodek's Datapacks Config",\
-  "inputs": [\
-    {\
-      "type": "minecraft:boolean",\
-      "key": "dialog_all_load_messages",\
-      "label": {\
-        "translate": "jodek.all_load_messages",\
-        "fallback": "All Load Messages"\
-      },\
-      "initial": $(all_load_messages),\
-      "on_true": "1",\
-      "on_false": "0"\
-    },\
-    {\
-      "type": "minecraft:boolean",\
-      "key": "dialog_all_advancements",\
-      "label": {\
-        "translate": "jodek.all_advancements",\
-        "fallback": "All Advancements"\
-      },\
-      "initial": $(all_advancements),\
-      "on_true": "1",\
-      "on_false": "0"\
-    }\
-  ],\
   "exit_action": {\
     "label": {\
-      "translate": "jodek.save",\
-      "fallback": "Save"\
+      "translate": "jodek.exit",\
+      "fallback": "Exit"\
     },\
     "action": {\
-      "type": "minecraft:dynamic/run_command",\
-      "template": "function jodek:config/save {dialog_all_load_messages:$(dialog_all_load_messages), dialog_all_advancements:$(dialog_all_advancements)}"\
+      "type": "minecraft:change_page",\
+      "page": 1\
     }\
   },\
-  "columns": 1,\
+  "columns": 2,\
   "actions": [\
+      {\
+      "label": {\
+        "text": "Enable all load messages"\
+      },\
+      "action": {\
+        "type": "minecraft:run_command",\
+        "command": "function jodek:config/save/load_messages/enable"\
+      }\
+    },\
+      {\
+      "label": {\
+        "text": "Disable all load messages"\
+      },\
+      "action": {\
+        "type": "minecraft:run_command",\
+        "command": "function jodek:config/save/load_messages/disable"\
+      }\
+    },\
+      {\
+      "label": {\
+        "text": "Enable all advancements"\
+      },\
+      "action": {\
+        "type": "minecraft:run_command",\
+        "command": "function jodek:config/save/advancements/enable"\
+      }\
+    },\
+      {\
+      "label": {\
+        "text": "Disable all advancements"\
+      },\
+      "action": {\
+        "type": "minecraft:run_command",\
+        "command": "function jodek:config/save/advancements/disable"\
+      }\
+    },\
     {\
       "label": {\
         "text": "✓ 5555ff lib",\
@@ -47,7 +61,7 @@ $dialog show @s {\
       "action": {\
         "type": "minecraft:run_command",\
         "command": "function jodek:config/datapack/5555ff_lib"\
-}\
+      }\
     },\
     {\
       "label": {\
@@ -57,16 +71,16 @@ $dialog show @s {\
       "action": {\
         "type": "minecraft:run_command",\
         "command": "function jodek:config/datapack/afk_announcer with storage jodek:root data.afk_announcer"\
-}\
+      }\
     },\
     {\
       "label": {\
         "text": "$(armor_stand_arms_unicode) Armor Stand Arms",\
-      "color": "$(armor_stand_arms_color)"\
+        "color": "$(armor_stand_arms_color)"\
     },\
     "action": {\
       "type": "minecraft:run_command",\
-      "command": "function jodek:config/datapack/armor_stand_arms with storage jodek:root data.armor_stand_arms"\}\
+      "command": "function jodek:config/datapack/armor_stand_arms with storage jodek:root data.armor_stand_arms"}\
     },\
     {\
       "label": {\
@@ -75,7 +89,7 @@ $dialog show @s {\
     },\
     "action": {\
       "type": "minecraft:run_command",\
-      "command": "function jodek:config/datapack/bat_membrane with storage jodek:root data.bat_membrane"\}\
+      "command": "function jodek:config/datapack/bat_membrane with storage jodek:root data.bat_membrane"}\
     },\
     {\
       "label": {\
@@ -84,7 +98,7 @@ $dialog show @s {\
     },\
     "action": {\
       "type": "minecraft:run_command",\
-      "command": "function jodek:config/datapack/better_cutter with storage jodek:root data.better_cutter"\}\
+      "command": "function jodek:config/datapack/better_cutter with storage jodek:root data.better_cutter"}\
     },\
     {\
       "label": {\
@@ -93,7 +107,7 @@ $dialog show @s {\
     },\
     "action": {\
       "type": "minecraft:run_command",\
-      "command": "function jodek:config/datapack/bigger_stack_size with storage jodek:root data.bigger_stack_size"\}\
+      "command": "function jodek:config/datapack/bigger_stack_size with storage jodek:root data.bigger_stack_size"}\
     },\
     {\
       "label": {\
@@ -102,7 +116,7 @@ $dialog show @s {\
     },\
     "action": {\
       "type": "minecraft:run_command",\
-      "command": "function jodek:config/datapack/call_your_cat with storage jodek:root data.call_your_cat"\}\
+      "command": "function jodek:config/datapack/call_your_cat with storage jodek:root data.call_your_cat"}\
     },\
     {\
       "label": {\
@@ -111,7 +125,7 @@ $dialog show @s {\
     },\
     "action": {\
       "type": "minecraft:run_command",\
-      "command": "function jodek:config/datapack/call_your_dog with storage jodek:root data.call_your_dog"\}\
+      "command": "function jodek:config/datapack/call_your_dog with storage jodek:root data.call_your_dog"}\
     },\
     {\
       "label": {\
@@ -120,7 +134,7 @@ $dialog show @s {\
     },\
     "action": {\
       "type": "minecraft:run_command",\
-      "command": "function jodek:config/datapack/call_your_happy_ghast with storage jodek:root data.call_your_happy_ghast"\}\
+      "command": "function jodek:config/datapack/call_your_happy_ghast with storage jodek:root data.call_your_happy_ghast"}\
     },\
     {\
       "label": {\
@@ -129,7 +143,7 @@ $dialog show @s {\
     },\
     "action": {\
       "type": "minecraft:run_command",\
-      "command": "function jodek:config/datapack/call_your_horse with storage jodek:root data.call_your_horse"\}\
+      "command": "function jodek:config/datapack/call_your_horse with storage jodek:root data.call_your_horse"}\
     },\
     {\
       "label": {\
@@ -138,7 +152,7 @@ $dialog show @s {\
     },\
     "action": {\
       "type": "minecraft:run_command",\
-      "command": "function jodek:config/datapack/call_your_nautilus with storage jodek:root data.call_your_nautilus"\}\
+      "command": "function jodek:config/datapack/call_your_nautilus with storage jodek:root data.call_your_nautilus"}\
     },\
     {\
       "label": {\
@@ -147,7 +161,7 @@ $dialog show @s {\
     },\
     "action": {\
       "type": "minecraft:run_command",\
-      "command": "function jodek:config/datapack/call_your_parrot with storage jodek:root data.call_your_parrot"\}\
+      "command": "function jodek:config/datapack/call_your_parrot with storage jodek:root data.call_your_parrot"}\
     },\
     {\
       "label": {\
@@ -156,7 +170,7 @@ $dialog show @s {\
     },\
     "action": {\
       "type": "minecraft:run_command",\
-      "command": "function jodek:config/datapack/copper_golem_hats with storage jodek:root data.copper_golem_hats"\}\
+      "command": "function jodek:config/datapack/copper_golem_hats with storage jodek:root data.copper_golem_hats"}\
     },\
     {\
       "label": {\
@@ -165,7 +179,7 @@ $dialog show @s {\
     },\
     "action": {\
       "type": "minecraft:run_command",\
-      "command": "function jodek:config/datapack/craft_elytra with storage jodek:root data.craft_elytra"\}\
+      "command": "function jodek:config/datapack/craft_elytra with storage jodek:root data.craft_elytra"}\
     },\
     {\
       "label": {\
@@ -174,7 +188,7 @@ $dialog show @s {\
     },\
     "action": {\
       "type": "minecraft:run_command",\
-      "command": "function jodek:config/datapack/craft_enchanted_golden_apple with storage jodek:root data.craft_enchanted_golden_apple"\}\
+      "command": "function jodek:config/datapack/craft_enchanted_golden_apple with storage jodek:root data.craft_enchanted_golden_apple"}\
     },\
     {\
       "label": {\
@@ -183,7 +197,7 @@ $dialog show @s {\
     },\
     "action": {\
       "type": "minecraft:run_command",\
-      "command": "function jodek:config/datapack/craft_music_discs with storage jodek:root data.craft_music_discs"\}\
+      "command": "function jodek:config/datapack/craft_music_discs with storage jodek:root data.craft_music_discs"}\
     },\
     {\
       "label": {\
@@ -192,7 +206,7 @@ $dialog show @s {\
     },\
     "action": {\
       "type": "minecraft:run_command",\
-      "command": "function jodek:config/datapack/craft_spawn_eggs with storage jodek:root data.craft_spawn_eggs"\}\
+      "command": "function jodek:config/datapack/craft_spawn_eggs with storage jodek:root data.craft_spawn_eggs"}\
     },\
     {\
       "label": {\
@@ -201,7 +215,7 @@ $dialog show @s {\
     },\
     "action": {\
       "type": "minecraft:run_command",\
-      "command": "function jodek:config/datapack/craft_spawner with storage jodek:root data.craft_spawner"\}\
+      "command": "function jodek:config/datapack/craft_spawner with storage jodek:root data.craft_spawner"}\
     },\
     {\
       "label": {\
@@ -210,7 +224,7 @@ $dialog show @s {\
     },\
     "action": {\
       "type": "minecraft:run_command",\
-      "command": "function jodek:config/datapack/craft_sponge with storage jodek:root data.craft_sponge"\}\
+      "command": "function jodek:config/datapack/craft_sponge with storage jodek:root data.craft_sponge"}\
     },\
     {\
       "label": {\
@@ -219,7 +233,7 @@ $dialog show @s {\
     },\
     "action": {\
       "type": "minecraft:run_command",\
-      "command": "function jodek:config/datapack/craft_trial_spawner with storage jodek:root data.craft_trial_spawner"\}\
+      "command": "function jodek:config/datapack/craft_trial_spawner with storage jodek:root data.craft_trial_spawner"}\
     },\
     {\
       "label": {\
@@ -228,7 +242,7 @@ $dialog show @s {\
     },\
     "action": {\
       "type": "minecraft:run_command",\
-      "command": "function jodek:config/datapack/custom_border with storage jodek:root data.custom_border"\}\
+      "command": "function jodek:config/datapack/custom_border with storage jodek:root data.custom_border"}\
     },\
     {\
       "label": {\
@@ -237,7 +251,7 @@ $dialog show @s {\
     },\
     "action": {\
       "type": "minecraft:run_command",\
-      "command": "function jodek:config/datapack/custom_breed_cooldown with storage jodek:root data.custom_breed_cooldown"\}\
+      "command": "function jodek:config/datapack/custom_breed_cooldown with storage jodek:root data.custom_breed_cooldown"}\
     },\
     {\
       "label": {\
@@ -246,7 +260,7 @@ $dialog show @s {\
     },\
     "action": {\
       "type": "minecraft:run_command",\
-      "command": "function jodek:config/datapack/dragon_egg_respawns with storage jodek:root data.dragon_egg_respawns"\}\
+      "command": "function jodek:config/datapack/dragon_egg_respawns with storage jodek:root data.dragon_egg_respawns"}\
     },\
     {\
       "label": {\
@@ -255,7 +269,7 @@ $dialog show @s {\
     },\
     "action": {\
       "type": "minecraft:run_command",\
-      "command": "function jodek:config/datapack/easy_sit with storage jodek:root data.easy_sit"\}\
+      "command": "function jodek:config/datapack/easy_sit with storage jodek:root data.easy_sit"}\
     },\
     {\
       "label": {\
@@ -264,7 +278,7 @@ $dialog show @s {\
     },\
     "action": {\
       "type": "minecraft:run_command",\
-      "command": "function jodek:config/datapack/invisible_player_name with storage jodek:root data.invisible_player_name"\}\
+      "command": "function jodek:config/datapack/invisible_player_name with storage jodek:root data.invisible_player_name"}\
     },\
     {\
       "label": {\
@@ -273,7 +287,7 @@ $dialog show @s {\
     },\
     "action": {\
       "type": "minecraft:run_command",\
-      "command": "function jodek:config/datapack/killer_bunny_name_tag with storage jodek:root data.killer_bunny_name_tag"\}\
+      "command": "function jodek:config/datapack/killer_bunny_name_tag with storage jodek:root data.killer_bunny_name_tag"}\
     },\
     {\
       "label": {\
@@ -282,7 +296,7 @@ $dialog show @s {\
     },\
     "action": {\
       "type": "minecraft:run_command",\
-      "command": "function jodek:config/datapack/leash_fences with storage jodek:root data.leash_fences"\}\
+      "command": "function jodek:config/datapack/leash_fences with storage jodek:root data.leash_fences"}\
     },\
     {\
       "label": {\
@@ -291,7 +305,7 @@ $dialog show @s {\
     },\
     "action": {\
       "type": "minecraft:run_command",\
-      "command": "function jodek:config/datapack/locator_bar_removed with storage jodek:root data.locator_bar_removed"\}\
+      "command": "function jodek:config/datapack/locator_bar_removed with storage jodek:root data.locator_bar_removed"}\
     },\
     {\
       "label": {\
@@ -300,7 +314,7 @@ $dialog show @s {\
     },\
     "action": {\
       "type": "minecraft:run_command",\
-      "command": "function jodek:config/datapack/mace_protection with storage jodek:root data.mace_protection"\}\
+      "command": "function jodek:config/datapack/mace_protection with storage jodek:root data.mace_protection"}\
     },\
     {\
       "label": {\
@@ -309,7 +323,7 @@ $dialog show @s {\
     },\
     "action": {\
       "type": "minecraft:run_command",\
-      "command": "function jodek:config/datapack/mine_glass_without_silk_touch with storage jodek:root data.mine_glass_without_silk_touch"\}\
+      "command": "function jodek:config/datapack/mine_glass_without_silk_touch with storage jodek:root data.mine_glass_without_silk_touch"}\
     },\
     {\
       "label": {\
@@ -318,7 +332,7 @@ $dialog show @s {\
     },\
     "action": {\
       "type": "minecraft:run_command",\
-      "command": "function jodek:config/datapack/mineable_spawner with storage jodek:root data.mineable_spawner"\}\
+      "command": "function jodek:config/datapack/mineable_spawner with storage jodek:root data.mineable_spawner"}\
     },\
     {\
       "label": {\
@@ -327,7 +341,7 @@ $dialog show @s {\
     },\
     "action": {\
       "type": "minecraft:run_command",\
-      "command": "function jodek:config/datapack/mineable_trial_spawner with storage jodek:root data.mineable_trial_spawner"\}\
+      "command": "function jodek:config/datapack/mineable_trial_spawner with storage jodek:root data.mineable_trial_spawner"}\
     },\
     {\
       "label": {\
@@ -336,7 +350,7 @@ $dialog show @s {\
     },\
     "action": {\
       "type": "minecraft:run_command",\
-      "command": "function jodek:config/datapack/mob_heads with storage jodek:root data.mob_heads"\}\
+      "command": "function jodek:config/datapack/mob_heads with storage jodek:root data.mob_heads"}\
     },\
     {\
       "label": {\
@@ -345,7 +359,7 @@ $dialog show @s {\
     },\
     "action": {\
       "type": "minecraft:run_command",\
-      "command": "function jodek:config/datapack/mob_heads_powers with storage jodek:root data.mob_heads_powers"\}\
+      "command": "function jodek:config/datapack/mob_heads_powers with storage jodek:root data.mob_heads_powers"}\
     },\
     {\
       "label": {\
@@ -354,7 +368,7 @@ $dialog show @s {\
     },\
     "action": {\
       "type": "minecraft:run_command",\
-      "command": "function jodek:config/datapack/name_tag with storage jodek:root data.name_tag"\}\
+      "command": "function jodek:config/datapack/name_tag with storage jodek:root data.name_tag"}\
     },\
     {\
       "label": {\
@@ -363,7 +377,7 @@ $dialog show @s {\
     },\
     "action": {\
       "type": "minecraft:run_command",\
-      "command": "function jodek:config/datapack/no_build_limit with storage jodek:root data.no_build_limit"\}\
+      "command": "function jodek:config/datapack/no_build_limit with storage jodek:root data.no_build_limit"}\
     },\
     {\
       "label": {\
@@ -372,7 +386,7 @@ $dialog show @s {\
     },\
     "action": {\
       "type": "minecraft:run_command",\
-      "command": "function jodek:config/datapack/no_creeper_grief with storage jodek:root data.no_creeper_grief"\}\
+      "command": "function jodek:config/datapack/no_creeper_grief with storage jodek:root data.no_creeper_grief"}\
     },\
     {\
       "label": {\
@@ -381,7 +395,7 @@ $dialog show @s {\
     },\
     "action": {\
       "type": "minecraft:run_command",\
-      "command": "function jodek:config/datapack/no_enderman_grief with storage jodek:root data.no_enderman_grief"\}\
+      "command": "function jodek:config/datapack/no_enderman_grief with storage jodek:root data.no_enderman_grief"}\
     },\
     {\
       "label": {\
@@ -390,7 +404,7 @@ $dialog show @s {\
     },\
     "action": {\
       "type": "minecraft:run_command",\
-      "command": "function jodek:config/datapack/player_drops_head with storage jodek:root data.player_drops_head"\}\
+      "command": "function jodek:config/datapack/player_drops_head with storage jodek:root data.player_drops_head"}\
     },\
     {\
       "label": {\
@@ -399,7 +413,7 @@ $dialog show @s {\
     },\
     "action": {\
       "type": "minecraft:run_command",\
-      "command": "function jodek:config/datapack/show_dimension_in_name with storage jodek:root data.show_dimension_in_name"\}\
+      "command": "function jodek:config/datapack/show_dimension_in_name with storage jodek:root data.show_dimension_in_name"}\
     },\
     {\
       "label": {\
@@ -408,7 +422,7 @@ $dialog show @s {\
     },\
     "action": {\
       "type": "minecraft:run_command",\
-      "command": "function jodek:config/datapack/shulkers_drop_two_shells with storage jodek:root data.shulkers_drop_two_shells"\}\
+      "command": "function jodek:config/datapack/shulkers_drop_two_shells with storage jodek:root data.shulkers_drop_two_shells"}\
     },\
     {\
       "label": {\
@@ -417,7 +431,7 @@ $dialog show @s {\
     },\
     "action": {\
       "type": "minecraft:run_command",\
-      "command": "function jodek:config/datapack/sleep with storage jodek:root data.sleep"\}\
+      "command": "function jodek:config/datapack/sleep with storage jodek:root data.sleep"}\
     },\
     {\
       "label": {\
@@ -426,7 +440,7 @@ $dialog show @s {\
     },\
     "action": {\
       "type": "minecraft:run_command",\
-      "command": "function jodek:config/datapack/sleep_anytime_you_want with storage jodek:root data.sleep_anytime_you_want"\}\
+      "command": "function jodek:config/datapack/sleep_anytime_you_want with storage jodek:root data.sleep_anytime_you_want"}\
     },\
     {\
       "label": {\
@@ -435,7 +449,7 @@ $dialog show @s {\
     },\
     "action": {\
       "type": "minecraft:run_command",\
-      "command": "function jodek:config/datapack/swift_flight with storage jodek:root data.swift_flight"\}\
+      "command": "function jodek:config/datapack/swift_flight with storage jodek:root data.swift_flight"}\
     },\
     {\
       "label": {\
@@ -444,7 +458,7 @@ $dialog show @s {\
     },\
     "action": {\
       "type": "minecraft:run_command",\
-      "command": "function jodek:config/datapack/too_expensive_removed with storage jodek:root data.too_expensive_removed"\}\
+      "command": "function jodek:config/datapack/too_expensive_removed with storage jodek:root data.too_expensive_removed"}\
     },\
     {\
       "label": {\
@@ -453,7 +467,7 @@ $dialog show @s {\
     },\
     "action": {\
       "type": "minecraft:run_command",\
-      "command": "function jodek:config/datapack/transfer_pet_owner with storage jodek:root data.transfer_pet_owner"\}\
+      "command": "function jodek:config/datapack/transfer_pet_owner with storage jodek:root data.transfer_pet_owner"}\
     },\
     {\
       "label": {\
@@ -462,7 +476,7 @@ $dialog show @s {\
     },\
     "action": {\
       "type": "minecraft:run_command",\
-      "command": "function jodek:config/datapack/trident_all_weather_channeling with storage jodek:root data.trident_all_weather_channeling"\}\
+      "command": "function jodek:config/datapack/trident_all_weather_channeling with storage jodek:root data.trident_all_weather_channeling"}\
     },\
     {\
       "label": {\
@@ -471,7 +485,7 @@ $dialog show @s {\
     },\
     "action": {\
       "type": "minecraft:run_command",\
-      "command": "function jodek:config/datapack/upgradeable_spawners with storage jodek:root data.upgradeable_spawners"\}\
+      "command": "function jodek:config/datapack/upgradeable_spawners with storage jodek:root data.upgradeable_spawners"}\
     },\
     {\
       "label": {\
@@ -480,7 +494,7 @@ $dialog show @s {\
     },\
     "action": {\
       "type": "minecraft:run_command",\
-      "command": "function jodek:config/datapack/villagers_buy_ender_pearls with storage jodek:root data.villagers_buy_ender_pearls"\}\
+      "command": "function jodek:config/datapack/villagers_buy_ender_pearls with storage jodek:root data.villagers_buy_ender_pearls"}\
     }\
   ]\
 }

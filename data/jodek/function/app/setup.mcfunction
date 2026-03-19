@@ -14,4 +14,4 @@ function jodek:config/set_default
 
 scoreboard players set @a jodek.config 0
 
-# schedule function jodek:app/check/installed 2s
+schedule function jodek:app/check/installed 2s

@@ -48,6 +48,16 @@ $dialog show @s {\
   "columns": 1,\
   "actions": [\
     {\
+      "label": {\
+        "translate": "jodek.uninstall",\
+        "fallback": "Uninstall"\
+      },\
+      "action": {\
+        "type": "minecraft:run_command",\
+        "command": "function jodek:app/uninstall/craft_enchanted_golden_apple"\
+      }\
+    },\
+    {\
       "label": "Modrinth",\
       "action": {\
         "type": "minecraft:open_url",\

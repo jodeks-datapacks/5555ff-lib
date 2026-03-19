@@ -54,7 +54,17 @@ $dialog show @s {\
       },\
       "action": {\
         "type": "minecraft:run_command",\
-        "command": "function upgradeable_spawners/config/dialog_config"\
+        "command": "function upgradeable_spawners:config/dialog_config with storage upgradeable_spawners:root data"\
+      }\
+    },\
+    {\
+      "label": {\
+        "translate": "jodek.uninstall",\
+        "fallback": "Uninstall"\
+      },\
+      "action": {\
+        "type": "minecraft:run_command",\
+        "command": "function jodek:app/uninstall/upgradeable_spawners"\
       }\
     },\
     {\
