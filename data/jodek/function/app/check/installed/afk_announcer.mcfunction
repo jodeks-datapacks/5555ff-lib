@@ -1,6 +1,8 @@
 scoreboard players set &afk_announcer jodek.installed 1
 
 data modify storage jodek:root data.afk_announcer.installed set value 1
+
+execute unless score &afk_announcer_load_message jodek.config = &afk_announcer_load_message jodek.config run scoreboard players set &afk_announcer_load_message jodek.config 1
 execute unless data storage jodek:root data.afk_announcer.load_message run data modify storage jodek:root data.afk_announcer.load_message set value 1
 execute unless data storage jodek:root data.afk_announcer.advancements run data modify storage jodek:root data.afk_announcer.advancements set value 1
 

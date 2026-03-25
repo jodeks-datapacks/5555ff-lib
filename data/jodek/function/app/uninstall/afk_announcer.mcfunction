@@ -21,3 +21,5 @@ team remove afk_end
 
 data remove storage afk_announcer:image data
 data remove storage afk_announcer:root data
+
+say Successfully uninstalled AFK Announcer!

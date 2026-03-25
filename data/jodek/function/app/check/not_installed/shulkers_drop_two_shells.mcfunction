@@ -1,6 +1,8 @@
 scoreboard players set &shulkers_drop_two_shells jodek.installed 0
 
 data modify storage jodek:root data.shulkers_drop_two_shells.installed set value 0
+
+execute unless score &shulkers_drop_two_shells_load_message jodek.config = &shulkers_drop_two_shells_load_message jodek.config run scoreboard players set &shulkers_drop_two_shells_load_message jodek.config 0
 execute unless data storage jodek:root data.shulkers_drop_two_shells.load_message run data modify storage jodek:root data.shulkers_drop_two_shells.load_message set value 0
 execute unless data storage jodek:root data.shulkers_drop_two_shells.advancements run data modify storage jodek:root data.shulkers_drop_two_shells.advancements set value 0
 

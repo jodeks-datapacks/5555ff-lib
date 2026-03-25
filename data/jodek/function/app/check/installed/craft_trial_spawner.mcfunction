@@ -1,6 +1,8 @@
 scoreboard players set &craft_trial_spawner jodek.installed 1
 
 data modify storage jodek:root data.craft_trial_spawner.installed set value 1
+
+execute unless score &craft_trial_spawner_load_message jodek.config = &craft_trial_spawner_load_message jodek.config run scoreboard players set &craft_trial_spawner_load_message jodek.config 1
 execute unless data storage jodek:root data.craft_trial_spawner.load_message run data modify storage jodek:root data.craft_trial_spawner.load_message set value 1
 execute unless data storage jodek:root data.craft_trial_spawner.advancements run data modify storage jodek:root data.craft_trial_spawner.advancements set value 1
 

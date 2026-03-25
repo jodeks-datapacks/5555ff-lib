@@ -1,6 +1,8 @@
 scoreboard players set &copper_golem_hats jodek.installed 1
 
 data modify storage jodek:root data.copper_golem_hats.installed set value 1
+
+execute unless score &copper_golem_hats_load_message jodek.config = &copper_golem_hats_load_message jodek.config run scoreboard players set &copper_golem_hats_load_message jodek.config 1
 execute unless data storage jodek:root data.copper_golem_hats.load_message run data modify storage jodek:root data.copper_golem_hats.load_message set value 1
 execute unless data storage jodek:root data.copper_golem_hats.advancements run data modify storage jodek:root data.copper_golem_hats.advancements set value 1
 

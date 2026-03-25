@@ -16,3 +16,5 @@ scoreboard objectives remove armor_stand_arms.raycast_distance
 scoreboard objectives remove armor_stand_arms.raycast_check
 
 scoreboard objectives remove armor_stand_arms.config
+
+say Successfully uninstalled Armor Stand Arms!

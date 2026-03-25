@@ -1,6 +1,8 @@
 scoreboard players set &better_cutter jodek.installed 0
 
 data modify storage jodek:root data.better_cutter.installed set value 0
+
+execute unless score &better_cutter_load_message jodek.config = &better_cutter_load_message jodek.config run scoreboard players set &better_cutter_load_message jodek.config 0
 execute unless data storage jodek:root data.better_cutter.load_message run data modify storage jodek:root data.better_cutter.load_message set value 0
 execute unless data storage jodek:root data.better_cutter.advancements run data modify storage jodek:root data.better_cutter.advancements set value 0
 

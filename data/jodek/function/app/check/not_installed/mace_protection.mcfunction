@@ -1,6 +1,8 @@
 scoreboard players set &mace_protection jodek.installed 0
 
 data modify storage jodek:root data.mace_protection.installed set value 0
+
+execute unless score &mace_protection_load_message jodek.config = &mace_protection_load_message jodek.config run scoreboard players set &mace_protection_load_message jodek.config 0
 execute unless data storage jodek:root data.mace_protection.load_message run data modify storage jodek:root data.mace_protection.load_message set value 0
 execute unless data storage jodek:root data.mace_protection.advancements run data modify storage jodek:root data.mace_protection.advancements set value 0
 

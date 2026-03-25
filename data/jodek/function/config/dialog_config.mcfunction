@@ -18,39 +18,43 @@ $dialog show @s {\
   "columns": 2,\
   "actions": [\
       {\
-      "label": {\
-        "text": "Enable all load messages"\
+    "label": {\
+      "translate": "jodek.config.enable_all_load_messages",\
+      "fallback": "Enable all load messages"\
       },\
       "action": {\
         "type": "minecraft:run_command",\
-        "command": "function jodek:config/save/load_messages/enable"\
+        "command": "function jodek:config/save/all/load_messages/enable"\
       }\
     },\
       {\
       "label": {\
-        "text": "Disable all load messages"\
+        "translate": "jodek.config.disable_all_load_messages",\
+        "fallback": "Disable all load messages"\
       },\
       "action": {\
         "type": "minecraft:run_command",\
-        "command": "function jodek:config/save/load_messages/disable"\
+        "command": "function jodek:config/save/all/load_messages/disable"\
       }\
     },\
       {\
       "label": {\
-        "text": "Enable all advancements"\
+        "translate": "jodek.config.enable_all_advancements",\
+        "fallback": "Enable all advancements"\
       },\
       "action": {\
         "type": "minecraft:run_command",\
-        "command": "function jodek:config/save/advancements/enable"\
+        "command": "function jodek:config/save/all/advancements/enable"\
       }\
     },\
       {\
       "label": {\
-        "text": "Disable all advancements"\
+        "translate": "jodek.config.disable_all_advancements",\
+        "fallback": "Disable all advancements"\
       },\
       "action": {\
         "type": "minecraft:run_command",\
-        "command": "function jodek:config/save/advancements/disable"\
+        "command": "function jodek:config/save/all/advancements/disable"\
       }\
     },\
     {\
@@ -60,7 +64,7 @@ $dialog show @s {\
       },\
       "action": {\
         "type": "minecraft:run_command",\
-        "command": "function jodek:config/datapack/5555ff_lib"\
+        "command": "function jodek:config/datapack/5555ff_lib with storage jodek:root data.5555ff_lib"\
       }\
     },\
     {\

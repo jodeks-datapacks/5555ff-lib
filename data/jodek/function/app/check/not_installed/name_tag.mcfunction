@@ -1,6 +1,8 @@
 scoreboard players set &name_tag jodek.installed 0
 
 data modify storage jodek:root data.name_tag.installed set value 0
+
+execute unless score &name_tag_load_message jodek.config = &name_tag_load_message jodek.config run scoreboard players set &name_tag_load_message jodek.config 0
 execute unless data storage jodek:root data.name_tag.load_message run data modify storage jodek:root data.name_tag.load_message set value 0
 execute unless data storage jodek:root data.name_tag.advancements run data modify storage jodek:root data.name_tag.advancements set value 0
 

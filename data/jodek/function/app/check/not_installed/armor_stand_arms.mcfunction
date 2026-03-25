@@ -1,6 +1,8 @@
 scoreboard players set &armor_stand_arms jodek.installed 0
 
 data modify storage jodek:root data.armor_stand_arms.installed set value 0
+
+execute unless score &armor_stand_arms_load_message jodek.config = &armor_stand_arms_load_message jodek.config run scoreboard players set &armor_stand_arms_load_message jodek.config 0
 execute unless data storage jodek:root data.armor_stand_arms.load_message run data modify storage jodek:root data.armor_stand_arms.load_message set value 0
 execute unless data storage jodek:root data.armor_stand_arms.advancements run data modify storage jodek:root data.armor_stand_arms.advancements set value 0
 

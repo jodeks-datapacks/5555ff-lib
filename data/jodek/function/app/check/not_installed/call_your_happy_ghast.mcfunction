@@ -1,6 +1,8 @@
 scoreboard players set &call_your_happy_ghast jodek.installed 0
 
 data modify storage jodek:root data.call_your_happy_ghast.installed set value 0
+
+execute unless score &call_your_happy_ghast_load_message jodek.config = &call_your_happy_ghast_load_message jodek.config run scoreboard players set &call_your_happy_ghast_load_message jodek.config 0
 execute unless data storage jodek:root data.call_your_happy_ghast.load_message run data modify storage jodek:root data.call_your_happy_ghast.load_message set value 0
 execute unless data storage jodek:root data.call_your_happy_ghast.advancements run data modify storage jodek:root data.call_your_happy_ghast.advancements set value 0
 

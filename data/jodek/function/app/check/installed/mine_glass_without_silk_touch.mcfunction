@@ -1,6 +1,8 @@
 scoreboard players set &mine_glass_without_silk_touch jodek.installed 1
 
 data modify storage jodek:root data.mine_glass_without_silk_touch.installed set value 1
+
+execute unless score &mine_glass_without_silk_touch_load_message jodek.config = &mine_glass_without_silk_touch_load_message jodek.config run scoreboard players set &mine_glass_without_silk_touch_load_message jodek.config 1
 execute unless data storage jodek:root data.mine_glass_without_silk_touch.load_message run data modify storage jodek:root data.mine_glass_without_silk_touch.load_message set value 1
 execute unless data storage jodek:root data.mine_glass_without_silk_touch.advancements run data modify storage jodek:root data.mine_glass_without_silk_touch.advancements set value 1
 

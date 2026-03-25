@@ -1,6 +1,8 @@
 scoreboard players set &easy_sit jodek.installed 1
 
 data modify storage jodek:root data.easy_sit.installed set value 1
+
+execute unless score &easy_sit_load_message jodek.config = &easy_sit_load_message jodek.config run scoreboard players set &easy_sit_load_message jodek.config 1
 execute unless data storage jodek:root data.easy_sit.load_message run data modify storage jodek:root data.easy_sit.load_message set value 1
 execute unless data storage jodek:root data.easy_sit.advancements run data modify storage jodek:root data.easy_sit.advancements set value 1
 

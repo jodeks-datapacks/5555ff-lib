@@ -1,6 +1,8 @@
 scoreboard players set &sleep jodek.installed 1
 
 data modify storage jodek:root data.sleep.installed set value 1
+
+execute unless score &sleep_load_message jodek.config = &sleep_load_message jodek.config run scoreboard players set &sleep_load_message jodek.config 1
 execute unless data storage jodek:root data.sleep.load_message run data modify storage jodek:root data.sleep.load_message set value 1
 execute unless data storage jodek:root data.sleep.advancements run data modify storage jodek:root data.sleep.advancements set value 1
 

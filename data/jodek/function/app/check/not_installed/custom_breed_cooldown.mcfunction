@@ -1,6 +1,8 @@
 scoreboard players set &custom_breed_cooldown jodek.installed 0
 
 data modify storage jodek:root data.custom_breed_cooldown.installed set value 0
+
+execute unless score &custom_breed_cooldown_load_message jodek.config = &custom_breed_cooldown_load_message jodek.config run scoreboard players set &custom_breed_cooldown_load_message jodek.config 0
 execute unless data storage jodek:root data.custom_breed_cooldown.load_message run data modify storage jodek:root data.custom_breed_cooldown.load_message set value 0
 execute unless data storage jodek:root data.custom_breed_cooldown.advancements run data modify storage jodek:root data.custom_breed_cooldown.advancements set value 0
 

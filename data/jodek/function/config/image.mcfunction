@@ -14,7 +14,7 @@ function jodek:image/set_image_data {\
   background_color: "#303030",\
   description: [\
     {text: "5555ff lib"},\
-    {translate: "5555ff_lib.description", text: "Library used in Jodek's projects"},\
+    {translate: "5555ff_lib.description", fallback: "Library used in Jodek's projects"},\
     "",\
     [{translate: "jodek.datapack_version", fallback: "Datapack version: ", color: "#00a800"}, {text: "v2.5.5", color: "#54fc54"}],\
     [{translate: "jodek.game_version", fallback: "Game version: ", color: "#00a800"}, {text: "1.21.6+", color: "#54fc54"}],\

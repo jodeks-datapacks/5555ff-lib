@@ -1,3 +1,6 @@
+scoreboard players set &5555ff_lib_load_message jodek.config 1
+data modify storage jodek:root data.5555ff_lib.load_message set value 1
+
 scoreboard players set &afk_announcer_load_message jodek.config 1
 data modify storage jodek:root data.afk_announcer.load_message set value 1
 
@@ -133,8 +136,8 @@ data modify storage jodek:root data.too_expensive_removed.load_message set value
 scoreboard players set &transfer_pet_owner_load_message jodek.config 1
 data modify storage jodek:root data.transfer_pet_owner.load_message set value 1
 
-scoreboard players set &trident_all_weather_channling_load_message jodek.config 1
-data modify storage jodek:root data.trident_all_weather_channling.load_message set value 1
+scoreboard players set &trident_all_weather_channeling_load_message jodek.config 1
+data modify storage jodek:root data.trident_all_weather_channeling.load_message set value 1
 
 scoreboard players set &upgradeable_spawners_load_message jodek.config 1
 data modify storage jodek:root data.upgradeable_spawners.load_message set value 1

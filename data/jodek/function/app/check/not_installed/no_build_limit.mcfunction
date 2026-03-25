@@ -1,6 +1,8 @@
 scoreboard players set &no_build_limit jodek.installed 0
 
 data modify storage jodek:root data.no_build_limit.installed set value 0
+
+execute unless score &no_build_limit_load_message jodek.config = &no_build_limit_load_message jodek.config run scoreboard players set &no_build_limit_load_message jodek.config 0
 execute unless data storage jodek:root data.no_build_limit.load_message run data modify storage jodek:root data.no_build_limit.load_message set value 0
 execute unless data storage jodek:root data.no_build_limit.advancements run data modify storage jodek:root data.no_build_limit.advancements set value 0
 

@@ -1,6 +1,8 @@
 scoreboard players set &locator_bar_removed jodek.installed 1
 
 data modify storage jodek:root data.locator_bar_removed.installed set value 1
+
+execute unless score &locator_bar_removed_load_message jodek.config = &locator_bar_removed_load_message jodek.config run scoreboard players set &locator_bar_removed_load_message jodek.config 1
 execute unless data storage jodek:root data.locator_bar_removed.load_message run data modify storage jodek:root data.locator_bar_removed.load_message set value 1
 execute unless data storage jodek:root data.locator_bar_removed.advancements run data modify storage jodek:root data.locator_bar_removed.advancements set value 1
 

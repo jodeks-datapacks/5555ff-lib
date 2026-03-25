@@ -1,6 +1,8 @@
 scoreboard players set &upgradeable_spawners jodek.installed 0
 
 data modify storage jodek:root data.upgradeable_spawners.installed set value 0
+
+execute unless score &upgradeable_spawners_load_message jodek.config = &upgradeable_spawners_load_message jodek.config run scoreboard players set &upgradeable_spawners_load_message jodek.config 0
 execute unless data storage jodek:root data.upgradeable_spawners.load_message run data modify storage jodek:root data.upgradeable_spawners.load_message set value 0
 execute unless data storage jodek:root data.upgradeable_spawners.advancements run data modify storage jodek:root data.upgradeable_spawners.advancements set value 0
 

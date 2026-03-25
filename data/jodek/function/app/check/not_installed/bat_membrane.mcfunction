@@ -1,6 +1,8 @@
 scoreboard players set &bat_membrane jodek.installed 0
 
 data modify storage jodek:root data.bat_membrane.installed set value 0
+
+execute unless score &bat_membrane_load_message jodek.config = &bat_membrane_load_message jodek.config run scoreboard players set &bat_membrane_load_message jodek.config 0
 execute unless data storage jodek:root data.bat_membrane.load_message run data modify storage jodek:root data.bat_membrane.load_message set value 0
 execute unless data storage jodek:root data.bat_membrane.advancements run data modify storage jodek:root data.bat_membrane.advancements set value 0
 

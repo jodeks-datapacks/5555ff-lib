@@ -1,14 +1,14 @@
 #> jodek:app/load_message
 # Called on load
 
-tellraw @a [\
-  "",\
+execute if score &5555ff_lib_load_message jodek.config matches 1 run tellraw @a [\
   {\
     text: "[",\
     color: "#aaaaaa"\
   },\
   {\
     text: "5555ff lib",\
+    color: "#ffffff",\
     hover_event: {\
       action: "show_text",\
       value: [\

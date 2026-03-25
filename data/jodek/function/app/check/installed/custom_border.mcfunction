@@ -1,6 +1,8 @@
 scoreboard players set &custom_border jodek.installed 1
 
 data modify storage jodek:root data.custom_border.installed set value 1
+
+execute unless score &custom_border_load_message jodek.config = &custom_border_load_message jodek.config run scoreboard players set &custom_border_load_message jodek.config 1
 execute unless data storage jodek:root data.custom_border.load_message run data modify storage jodek:root data.custom_border.load_message set value 1
 execute unless data storage jodek:root data.custom_border.advancements run data modify storage jodek:root data.custom_border.advancements set value 1
 

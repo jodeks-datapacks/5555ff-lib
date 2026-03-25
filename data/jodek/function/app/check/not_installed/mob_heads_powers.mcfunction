@@ -1,6 +1,8 @@
 scoreboard players set &mob_heads_powers jodek.installed 0
 
 data modify storage jodek:root data.mob_heads_powers.installed set value 0
+
+execute unless score &mob_heads_powers_load_message jodek.config = &mob_heads_powers_load_message jodek.config run scoreboard players set &mob_heads_powers_load_message jodek.config 0
 execute unless data storage jodek:root data.mob_heads_powers.load_message run data modify storage jodek:root data.mob_heads_powers.load_message set value 0
 execute unless data storage jodek:root data.mob_heads_powers.advancements run data modify storage jodek:root data.mob_heads_powers.advancements set value 0
 

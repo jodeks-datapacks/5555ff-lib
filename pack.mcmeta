@@ -38,5 +38,19 @@
         "color": "#ffff55"
       }
     ]
+  },
+  "overlays": {
+    "entries": [
+      {
+        "directory": "overlay-88",
+        "min_format": 88,
+        "max_format": 999
+      },
+      {
+        "directory": "overlay-94",
+        "min_format": 94,
+        "max_format": 999
+      }
+    ]
   }
 }

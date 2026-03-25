@@ -1,3 +1,6 @@
+scoreboard players set &5555ff_lib_advancements jodek.config 0
+data modify storage jodek:root data.5555ff_lib.advancements set value 0
+
 scoreboard players set &afk_announcer_advancements jodek.config 0
 data modify storage jodek:root data.afk_announcer.advancements set value 0
 
@@ -133,7 +136,7 @@ data modify storage jodek:root data.too_expensive_removed.advancements set value
 scoreboard players set &transfer_pet_owner_advancements jodek.config 0
 data modify storage jodek:root data.transfer_pet_owner.advancements set value 0
 
-scoreboard players set &trident_all_weather_channling_advancements jodek.config 0
+scoreboard players set &trident_all_weather_channeling_advancements jodek.config 0
 data modify storage jodek:root data.trident_all_weather_channling.advancements set value 0
 
 scoreboard players set &upgradeable_spawners_advancements jodek.config 0
