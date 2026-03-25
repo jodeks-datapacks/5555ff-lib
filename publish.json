@@ -16,6 +16,9 @@
     "26.1"
   ],
   "version_type": "release",
-  "dependencies": "",
+  "dependencies": {
+    "datapack": [],
+    "mod": []
+  },
   "discord_role_id": ""
 }
