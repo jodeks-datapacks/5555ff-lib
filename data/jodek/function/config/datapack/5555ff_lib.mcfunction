@@ -51,7 +51,7 @@ $dialog show @s {\
       "label": "Modrinth",\
       "action": {\
         "type": "minecraft:open_url",\
-        "url": "https://modrinth.com/datapack/5555ff-lib"\
+        "url": "https://modrinth.com/datapack/lib-5555ff"\
       }\
     }\
   ]\

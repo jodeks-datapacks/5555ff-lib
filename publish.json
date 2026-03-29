@@ -1,11 +1,9 @@
 {
-  "project_id": "Lr1LVAwO",
-  "curseforge_project_id": "1495266",
-  "curseforge_mod_project_id": "1495273",
+  "modrinth_id": "Lr1LVAwO",
+  "curseforge_id": "1495266",
+  "curseforge_mod_id": "1495273",
   "curseforge_slug": "lib-5555ff",
-  "loaders": [
-    "datapack"
-  ],
+  "loaders": ["datapack"],
   "game_versions": [
     "1.21.6",
     "1.21.7",

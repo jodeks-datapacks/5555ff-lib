@@ -23,7 +23,7 @@ execute if score &5555ff_lib_load_message jodek.config matches 1 run tellraw @a 
     click_event:\
     {\
     action:"open_url",\
-    url:"https://modrinth.com/datapack/5555ff-lib/"\
+    url:"https://modrinth.com/datapack/lib-5555ff/"\
     }\
   },\
   {\
@@ -43,7 +43,7 @@ execute if score &5555ff_lib_load_message jodek.config matches 1 run tellraw @a 
     click_event:\
     {\
     action:"open_url",\
-    url:"https://modrinth.com/datapack/5555ff-lib/"\
+    url:"https://modrinth.com/datapack/lib-5555ff/"\
     }\
   },\
   {\
@@ -63,7 +63,7 @@ execute if score &5555ff_lib_load_message jodek.config matches 1 run tellraw @a 
     click_event:\
     {\
     action:"open_url",\
-    url:"https://modrinth.com/datapack/5555ff-lib/"\
+    url:"https://modrinth.com/datapack/lib-5555ff/"\
     }\
   },\
   {\
@@ -83,7 +83,7 @@ execute if score &5555ff_lib_load_message jodek.config matches 1 run tellraw @a 
     click_event:\
     {\
     action:"open_url",\
-    url:"https://modrinth.com/datapack/5555ff-lib/"\
+    url:"https://modrinth.com/datapack/lib-5555ff/"\
     }\
   }\
 ]
