@@ -1,0 +1,1 @@
+$data modify storage $(target):root data.UUID set from entity @s UUID

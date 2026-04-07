@@ -169,12 +169,12 @@ $dialog show @s {\
     },\
     {\
       "label": {\
-        "text": "$(copper_golem_hats_unicode) Copper Golem Hats",\
-      "color": "$(copper_golem_hats_color)"\
+        "text": "$(call_your_horse_unicode) Copper Golem Hats",\
+      "color": "$(call_your_horse_color)"\
     },\
     "action": {\
       "type": "minecraft:run_command",\
-      "command": "function jodek:config/datapack/copper_golem_hats with storage jodek:root data.copper_golem_hats"}\
+      "command": "function jodek:config/datapack/call_your_horse with storage jodek:root data.call_your_horse"}\
     },\
     {\
       "label": {\

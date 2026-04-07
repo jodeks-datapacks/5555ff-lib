@@ -42,7 +42,7 @@ $dialog show @s {\
     },\
     "action": {\
       "type": "minecraft:dynamic/run_command",\
-      "template": "function jodek:config/save/copper_golem_hats {dialog_load_message:$(dialog_load_message), dialog_advancements:$(dialog_advancements)}"\
+      "template": "function jodek:config/save/call_your_horse {dialog_load_message:$(dialog_load_message), dialog_advancements:$(dialog_advancements)}"\
     }\
   },\
   "columns": 1,\
@@ -54,7 +54,7 @@ $dialog show @s {\
       },\
       "action": {\
         "type": "minecraft:run_command",\
-        "command": "function jodek:app/uninstall/copper_golem_hats"\
+        "command": "function jodek:app/uninstall/call_your_horse"\
       }\
     },\
     {\

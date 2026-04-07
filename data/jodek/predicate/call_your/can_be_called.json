@@ -1,0 +1,6 @@
+[
+  {
+    "condition": "minecraft:reference",
+    "name": "call_your_horse:callable"
+  }
+]

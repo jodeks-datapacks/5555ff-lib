@@ -34,8 +34,8 @@ data modify storage jodek:root data.call_your_nautilus.load_message set value 0
 scoreboard players set &call_your_parrot_load_message jodek.config 0
 data modify storage jodek:root data.call_your_parrot.load_message set value 0
 
-scoreboard players set &copper_golem_hats_load_message jodek.config 0
-data modify storage jodek:root data.copper_golem_hats.load_message set value 0
+scoreboard players set &call_your_horse_load_message jodek.config 0
+data modify storage jodek:root data.call_your_horse.load_message set value 0
 
 scoreboard players set &craft_elytra_load_message jodek.config 0
 data modify storage jodek:root data.craft_elytra.load_message set value 0

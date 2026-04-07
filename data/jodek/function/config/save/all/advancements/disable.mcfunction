@@ -34,8 +34,8 @@ data modify storage jodek:root data.call_your_nautilus.advancements set value 0
 scoreboard players set &call_your_parrot_advancements jodek.config 0
 data modify storage jodek:root data.call_your_parrot.advancements set value 0
 
-scoreboard players set &copper_golem_hats_advancements jodek.config 0
-data modify storage jodek:root data.copper_golem_hats.advancements set value 0
+scoreboard players set &call_your_horse_advancements jodek.config 0
+data modify storage jodek:root data.call_your_horse.advancements set value 0
 
 scoreboard players set &craft_elytra_advancements jodek.config 0
 data modify storage jodek:root data.craft_elytra.advancements set value 0

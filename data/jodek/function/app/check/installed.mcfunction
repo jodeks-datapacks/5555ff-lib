@@ -31,8 +31,8 @@ execute if function call_your_nautilus:check run function jodek:app/check/instal
 function jodek:app/check/not_installed/call_your_parrot
 execute if function call_your_parrot:check run function jodek:app/check/installed/call_your_parrot
 
-function jodek:app/check/not_installed/copper_golem_hats
-execute if function copper_golem_hats:check run function jodek:app/check/installed/copper_golem_hats
+function jodek:app/check/not_installed/call_your_horse
+execute if function call_your_horse:check run function jodek:app/check/installed/call_your_horse
 
 function jodek:app/check/not_installed/craft_elytra
 execute if function craft_elytra:check run function jodek:app/check/installed/craft_elytra

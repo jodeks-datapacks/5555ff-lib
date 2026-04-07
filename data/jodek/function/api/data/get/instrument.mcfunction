@@ -1,0 +1,3 @@
+$execute if data entity @s SelectedItem.components."minecraft:custom_data".audioplayer run data modify storage $(target):root data.instrument set value "minecraft:ponder_goat_horn"
+$execute unless data entity @s SelectedItem.components."minecraft:custom_data".audioplayer unless data entity @s SelectedItem.components."minecraft:instrument" run return run data modify storage $(target):root data.instrument set value "minecraft:ponder_goat_horn"
+$execute unless data entity @s SelectedItem.components."minecraft:custom_data".audioplayer run data modify storage $(target):root data.instrument set from entity @s SelectedItem.components."minecraft:instrument"

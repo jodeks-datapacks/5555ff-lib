@@ -1,16 +1,16 @@
-#> copper_golem_hats:uninstall
+#> call_your_horse:uninstall
 # Function to uninstall the datapack
 
-data remove storage copper_golem_hats:image data
-data remove storage copper_golem_hats:root data
+data remove storage call_your_horse:image data
+data remove storage call_your_horse:root data
 
-scoreboard objectives remove copper_golem_hats.raycast_start
-scoreboard objectives remove copper_golem_hats.raycast_hit
-scoreboard objectives remove copper_golem_hats.raycast_distance
-scoreboard objectives remove copper_golem_hats.raycast_check
+scoreboard objectives remove call_your_horse.raycast_start
+scoreboard objectives remove call_your_horse.raycast_hit
+scoreboard objectives remove call_your_horse.raycast_distance
+scoreboard objectives remove call_your_horse.raycast_check
 
-scoreboard objectives remove copper_golem_hats.item_count
+scoreboard objectives remove call_your_horse.item_count
 
-scoreboard objectives remove copper_golem_hats.image
+scoreboard objectives remove call_your_horse.image
 
 say Successfully uninstalled Copper Golem Hats!

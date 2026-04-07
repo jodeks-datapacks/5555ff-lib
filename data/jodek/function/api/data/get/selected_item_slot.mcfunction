@@ -1,0 +1,1 @@
+$data modify storage $(target):root data.selected_item_slot set from entity @s SelectedItemSlot

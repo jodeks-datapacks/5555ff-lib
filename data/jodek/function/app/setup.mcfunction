@@ -15,3 +15,11 @@ function jodek:config/set_default
 scoreboard players set @a jodek.config 0
 
 schedule function jodek:app/check/installed 2s
+
+scoreboard objectives add call_your.raycast_start dummy
+scoreboard objectives add call_your.raycast_hit dummy
+scoreboard objectives add call_your.raycast_distance dummy
+scoreboard objectives add call_your.raycast_check dummy
+
+scoreboard objectives add call_your.sneak_time custom:sneak_time
+scoreboard players set @a call_your.sneak_time 0

@@ -1,0 +1,1 @@
+scoreboard players set @a[tag=call_your.riding_ray] call_your.raycast_hit 1

@@ -1,0 +1,1 @@
+execute as @s if score @a[tag=call_your.riding_ray,limit=1] call_your.raycast_hit matches 0 positioned ~-0.9 ~-0.9 ~-0.9 if entity @s[dx=0] positioned ~0.95 ~0.95 ~0.95 run function jodek:api/call_your/raycast/hit_entity
