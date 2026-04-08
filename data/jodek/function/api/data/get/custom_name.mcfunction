@@ -1,1 +1,1 @@
-$data modify storage $(target):root data.custom_name set from entity @s CustomName
+$execute if data entity @s CustomName run data modify storage $(target):root data.custom_name set from entity @s CustomName

@@ -144,3 +144,6 @@ execute if function upgradeable_spawners:check run function jodek:app/check/inst
 
 function jodek:app/check/not_installed/villagers_buy_ender_pearls
 execute if function villagers_buy_ender_pearls:check run function jodek:app/check/installed/villagers_buy_ender_pearls
+
+function jodek:app/check/not_installed/copper_golem_hats
+execute if function copper_golem_hats:check run function jodek:app/check/installed/copper_golem_hats

@@ -2,9 +2,9 @@ scoreboard players set &leash_fences jodek.installed 0
 
 data modify storage jodek:root data.leash_fences.installed set value 0
 
-execute unless score &leash_fences_load_message jodek.config = &leash_fences_load_message jodek.config run scoreboard players set &leash_fences_load_message jodek.config 0
-execute unless data storage jodek:root data.leash_fences.load_message run data modify storage jodek:root data.leash_fences.load_message set value 0
-execute unless data storage jodek:root data.leash_fences.advancements run data modify storage jodek:root data.leash_fences.advancements set value 0
+execute unless score &leash_fences_load_message jodek.config = &leash_fences_load_message jodek.config run scoreboard players set &leash_fences_load_message jodek.config 1
+execute unless data storage jodek:root data.leash_fences.load_message run data modify storage jodek:root data.leash_fences.load_message set value 1
+execute unless data storage jodek:root data.leash_fences.advancements run data modify storage jodek:root data.leash_fences.advancements set value 1
 
 data modify storage jodek:root data.leash_fences.dialog_load_message set value "$(dialog_load_message)"
 data modify storage jodek:root data.leash_fences.dialog_advancements set value "$(dialog_advancements)"

@@ -2,9 +2,9 @@ scoreboard players set &custom_border jodek.installed 0
 
 data modify storage jodek:root data.custom_border.installed set value 0
 
-execute unless score &custom_border_load_message jodek.config = &custom_border_load_message jodek.config run scoreboard players set &custom_border_load_message jodek.config 0
-execute unless data storage jodek:root data.custom_border.load_message run data modify storage jodek:root data.custom_border.load_message set value 0
-execute unless data storage jodek:root data.custom_border.advancements run data modify storage jodek:root data.custom_border.advancements set value 0
+execute unless score &custom_border_load_message jodek.config = &custom_border_load_message jodek.config run scoreboard players set &custom_border_load_message jodek.config 1
+execute unless data storage jodek:root data.custom_border.load_message run data modify storage jodek:root data.custom_border.load_message set value 1
+execute unless data storage jodek:root data.custom_border.advancements run data modify storage jodek:root data.custom_border.advancements set value 1
 
 data modify storage jodek:root data.custom_border.dialog_load_message set value "$(dialog_load_message)"
 data modify storage jodek:root data.custom_border.dialog_advancements set value "$(dialog_advancements)"

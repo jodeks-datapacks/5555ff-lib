@@ -1,1 +1,1 @@
-$data modify storage $(target):root data.UUID_from_item set from entity @s SelectedItem.components."minecraft:custom_data".stored_UUID.UUID
+$execute if data entity @s equipment.offhand.components."minecraft:custom_data".stored_UUID.UUID run data modify storage $(target):root data.UUID_from_item set from entity @s equipment.offhand.components."minecraft:custom_data".stored_UUID.UUID

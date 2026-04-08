@@ -1,1 +1,0 @@
-$execute store success score &UUID_check $(target).check run data modify storage $(target):root data.UUID set from entity @e[predicate=jodek:can_be_called,limit=1,tag=jodek.can_be_called,nbt={UUID:$(UUID_from_item)}] Owner
