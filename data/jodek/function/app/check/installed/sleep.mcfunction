@@ -13,5 +13,9 @@ data modify storage jodek:root data.sleep.status set value jodek.installed
 data modify storage jodek:root data.sleep.status_fallback set value Installed
 data modify storage jodek:root data.sleep.color set value green
 
+data modify storage jodek:root data.sleep.id set value sleep
+data modify storage jodek:root data.sleep.title set value "Sleep"
+data modify storage jodek:root data.sleep.link set value sleep
+
 data modify storage jodek:root data.sleep_unicode set value "✓"
 data modify storage jodek:root data.sleep_color set value green

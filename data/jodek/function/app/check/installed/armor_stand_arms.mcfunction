@@ -13,5 +13,9 @@ data modify storage jodek:root data.armor_stand_arms.status set value jodek.inst
 data modify storage jodek:root data.armor_stand_arms.status_fallback set value Installed
 data modify storage jodek:root data.armor_stand_arms.color set value green
 
+data modify storage jodek:root data.armor_stand_arms.id set value armor_stand_arms
+data modify storage jodek:root data.armor_stand_arms.title set value "Armor Stand Arms"
+data modify storage jodek:root data.armor_stand_arms.link set value armor-stand-arms
+
 data modify storage jodek:root data.armor_stand_arms_unicode set value "✓"
 data modify storage jodek:root data.armor_stand_arms_color set value green

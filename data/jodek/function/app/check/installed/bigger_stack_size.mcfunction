@@ -13,5 +13,9 @@ data modify storage jodek:root data.bigger_stack_size.status set value jodek.ins
 data modify storage jodek:root data.bigger_stack_size.status_fallback set value Installed
 data modify storage jodek:root data.bigger_stack_size.color set value green
 
+data modify storage jodek:root data.bigger_stack_size.id set value bigger_stack_size
+data modify storage jodek:root data.bigger_stack_size.title set value "Bigger Stack Size"
+data modify storage jodek:root data.bigger_stack_size.link set value bigger-stack-size
+
 data modify storage jodek:root data.bigger_stack_size_unicode set value "✓"
 data modify storage jodek:root data.bigger_stack_size_color set value green

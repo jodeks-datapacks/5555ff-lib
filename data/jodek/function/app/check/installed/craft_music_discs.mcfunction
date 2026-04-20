@@ -13,5 +13,9 @@ data modify storage jodek:root data.craft_music_discs.status set value jodek.ins
 data modify storage jodek:root data.craft_music_discs.status_fallback set value Installed
 data modify storage jodek:root data.craft_music_discs.color set value green
 
+data modify storage jodek:root data.craft_music_discs.id set value craft_music_discs
+data modify storage jodek:root data.craft_music_discs.title set value "Craft Music Discs"
+data modify storage jodek:root data.craft_music_discs.link set value craft-music-discs
+
 data modify storage jodek:root data.craft_music_discs_unicode set value "✓"
 data modify storage jodek:root data.craft_music_discs_color set value green

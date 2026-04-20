@@ -13,5 +13,9 @@ data modify storage jodek:root data.call_your_nautilus.status set value jodek.in
 data modify storage jodek:root data.call_your_nautilus.status_fallback set value Installed
 data modify storage jodek:root data.call_your_nautilus.color set value green
 
+data modify storage jodek:root data.call_your_nautilus.id set value call_your_nautilus
+data modify storage jodek:root data.call_your_nautilus.title set value "Call Your Nautilus"
+data modify storage jodek:root data.call_your_nautilus.link set value call-your-nautilus
+
 data modify storage jodek:root data.call_your_nautilus_unicode set value "✓"
 data modify storage jodek:root data.call_your_nautilus_color set value green

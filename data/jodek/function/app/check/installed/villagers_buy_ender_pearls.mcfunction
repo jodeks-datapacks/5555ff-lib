@@ -13,5 +13,9 @@ data modify storage jodek:root data.villagers_buy_ender_pearls.status set value 
 data modify storage jodek:root data.villagers_buy_ender_pearls.status_fallback set value Installed
 data modify storage jodek:root data.villagers_buy_ender_pearls.color set value green
 
+data modify storage jodek:root data.villagers_buy_ender_pearls.id set value villagers_buy_ender_pearls
+data modify storage jodek:root data.villagers_buy_ender_pearls.title set value "Villagers Buy Ender Pearls"
+data modify storage jodek:root data.villagers_buy_ender_pearls.link set value villagers-buy-ender-pearls
+
 data modify storage jodek:root data.villagers_buy_ender_pearls_unicode set value "✓"
 data modify storage jodek:root data.villagers_buy_ender_pearls_color set value green

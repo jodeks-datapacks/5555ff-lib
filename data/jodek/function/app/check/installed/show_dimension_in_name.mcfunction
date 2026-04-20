@@ -13,5 +13,9 @@ data modify storage jodek:root data.show_dimension_in_name.status set value jode
 data modify storage jodek:root data.show_dimension_in_name.status_fallback set value Installed
 data modify storage jodek:root data.show_dimension_in_name.color set value green
 
+data modify storage jodek:root data.show_dimension_in_name.id set value show_dimension_in_name
+data modify storage jodek:root data.show_dimension_in_name.title set value "Show Dimension In Name"
+data modify storage jodek:root data.show_dimension_in_name.link set value show-dimension-in-name
+
 data modify storage jodek:root data.show_dimension_in_name_unicode set value "✓"
 data modify storage jodek:root data.show_dimension_in_name_color set value green

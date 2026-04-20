@@ -13,5 +13,9 @@ data modify storage jodek:root data.no_enderman_grief.status set value jodek.ins
 data modify storage jodek:root data.no_enderman_grief.status_fallback set value Installed
 data modify storage jodek:root data.no_enderman_grief.color set value green
 
+data modify storage jodek:root data.no_enderman_grief.id set value no_enderman_grief
+data modify storage jodek:root data.no_enderman_grief.title set value "No Enderman Grief"
+data modify storage jodek:root data.no_enderman_grief.link set value no-enderman-grief
+
 data modify storage jodek:root data.no_enderman_grief_unicode set value "✓"
 data modify storage jodek:root data.no_enderman_grief_color set value green

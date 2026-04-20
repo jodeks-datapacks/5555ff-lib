@@ -13,5 +13,9 @@ data modify storage jodek:root data.craft_sponge.status set value jodek.installe
 data modify storage jodek:root data.craft_sponge.status_fallback set value Installed
 data modify storage jodek:root data.craft_sponge.color set value green
 
+data modify storage jodek:root data.craft_sponge.id set value craft_sponge
+data modify storage jodek:root data.craft_sponge.title set value "Craft Sponge"
+data modify storage jodek:root data.craft_sponge.link set value craft-sponge
+
 data modify storage jodek:root data.craft_sponge_unicode set value "✓"
 data modify storage jodek:root data.craft_sponge_color set value green

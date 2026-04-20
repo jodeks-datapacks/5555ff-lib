@@ -13,5 +13,9 @@ data modify storage jodek:root data.trident_all_weather_channeling.status set va
 data modify storage jodek:root data.trident_all_weather_channeling.status_fallback set value Installed
 data modify storage jodek:root data.trident_all_weather_channeling.color set value green
 
+data modify storage jodek:root data.trident_all_weather_channeling.id set value trident_all_weather_channeling
+data modify storage jodek:root data.trident_all_weather_channeling.title set value "Trident All Weather Channeling"
+data modify storage jodek:root data.trident_all_weather_channeling.link set value trident-all-weather-channeling
+
 data modify storage jodek:root data.trident_all_weather_channeling_unicode set value "✓"
 data modify storage jodek:root data.trident_all_weather_channeling_color set value green

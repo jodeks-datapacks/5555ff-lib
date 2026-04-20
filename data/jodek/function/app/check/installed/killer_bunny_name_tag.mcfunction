@@ -13,5 +13,9 @@ data modify storage jodek:root data.killer_bunny_name_tag.status set value jodek
 data modify storage jodek:root data.killer_bunny_name_tag.status_fallback set value Installed
 data modify storage jodek:root data.killer_bunny_name_tag.color set value green
 
+data modify storage jodek:root data.killer_bunny_name_tag.id set value killer_bunny_name_tag
+data modify storage jodek:root data.killer_bunny_name_tag.title set value "Killer Bunny Name Tag"
+data modify storage jodek:root data.killer_bunny_name_tag.link set value killer-bunny-name-tag
+
 data modify storage jodek:root data.killer_bunny_name_tag_unicode set value "✓"
 data modify storage jodek:root data.killer_bunny_name_tag_color set value green

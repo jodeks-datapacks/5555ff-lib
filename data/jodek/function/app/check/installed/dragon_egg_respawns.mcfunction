@@ -13,5 +13,9 @@ data modify storage jodek:root data.dragon_egg_respawns.status set value jodek.i
 data modify storage jodek:root data.dragon_egg_respawns.status_fallback set value Installed
 data modify storage jodek:root data.dragon_egg_respawns.color set value green
 
+data modify storage jodek:root data.dragon_egg_respawns.id set value dragon_egg_respawns
+data modify storage jodek:root data.dragon_egg_respawns.title set value "Dragon Egg Respawns"
+data modify storage jodek:root data.dragon_egg_respawns.link set value dragon-egg-respawns
+
 data modify storage jodek:root data.dragon_egg_respawns_unicode set value "✓"
 data modify storage jodek:root data.dragon_egg_respawns_color set value green

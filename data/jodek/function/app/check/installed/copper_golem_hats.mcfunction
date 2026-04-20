@@ -13,5 +13,9 @@ data modify storage jodek:root data.call_your_horse.status set value jodek.insta
 data modify storage jodek:root data.call_your_horse.status_fallback set value Installed
 data modify storage jodek:root data.call_your_horse.color set value green
 
+data modify storage jodek:root data.call_your_horse.id set value call_your_horse
+data modify storage jodek:root data.call_your_horse.title set value "Copper Golem Hats"
+data modify storage jodek:root data.call_your_horse.link set value copper-golem-hats
+
 data modify storage jodek:root data.call_your_horse_unicode set value "✓"
 data modify storage jodek:root data.call_your_horse_color set value green

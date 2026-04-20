@@ -13,5 +13,9 @@ data modify storage jodek:root data.craft_trial_spawner.status set value jodek.i
 data modify storage jodek:root data.craft_trial_spawner.status_fallback set value Installed
 data modify storage jodek:root data.craft_trial_spawner.color set value green
 
+data modify storage jodek:root data.craft_trial_spawner.id set value craft_trial_spawner
+data modify storage jodek:root data.craft_trial_spawner.title set value "Craft Trial Spawner"
+data modify storage jodek:root data.craft_trial_spawner.link set value craft-trial-spawner
+
 data modify storage jodek:root data.craft_trial_spawner_unicode set value "✓"
 data modify storage jodek:root data.craft_trial_spawner_color set value green

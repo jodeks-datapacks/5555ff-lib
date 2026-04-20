@@ -13,5 +13,9 @@ data modify storage jodek:root data.transfer_pet_owner.status set value jodek.in
 data modify storage jodek:root data.transfer_pet_owner.status_fallback set value Installed
 data modify storage jodek:root data.transfer_pet_owner.color set value green
 
+data modify storage jodek:root data.transfer_pet_owner.id set value transfer_pet_owner
+data modify storage jodek:root data.transfer_pet_owner.title set value "Transfer Pet Owner"
+data modify storage jodek:root data.transfer_pet_owner.link set value transfer-pet-owner
+
 data modify storage jodek:root data.transfer_pet_owner_unicode set value "✓"
 data modify storage jodek:root data.transfer_pet_owner_color set value green

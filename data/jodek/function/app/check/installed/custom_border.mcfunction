@@ -13,5 +13,9 @@ data modify storage jodek:root data.custom_border.status set value jodek.install
 data modify storage jodek:root data.custom_border.status_fallback set value Installed
 data modify storage jodek:root data.custom_border.color set value green
 
+data modify storage jodek:root data.custom_border.id set value custom_border
+data modify storage jodek:root data.custom_border.title set value "Custom Border"
+data modify storage jodek:root data.custom_border.link set value custom-border
+
 data modify storage jodek:root data.custom_border_unicode set value "✓"
 data modify storage jodek:root data.custom_border_color set value green

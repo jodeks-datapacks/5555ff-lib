@@ -13,5 +13,9 @@ data modify storage jodek:root data.sleep_anytime_you_want.status set value jode
 data modify storage jodek:root data.sleep_anytime_you_want.status_fallback set value Installed
 data modify storage jodek:root data.sleep_anytime_you_want.color set value green
 
+data modify storage jodek:root data.sleep_anytime_you_want.id set value sleep_anytime_you_want
+data modify storage jodek:root data.sleep_anytime_you_want.title set value "Sleep Anytime You Want"
+data modify storage jodek:root data.sleep_anytime_you_want.link set value sleep-anytime-you-want
+
 data modify storage jodek:root data.sleep_anytime_you_want_unicode set value "✓"
 data modify storage jodek:root data.sleep_anytime_you_want_color set value green

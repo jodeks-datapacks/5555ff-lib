@@ -13,5 +13,9 @@ data modify storage jodek:root data.mace_protection.status set value jodek.insta
 data modify storage jodek:root data.mace_protection.status_fallback set value Installed
 data modify storage jodek:root data.mace_protection.color set value green
 
+data modify storage jodek:root data.mace_protection.id set value mace_protection
+data modify storage jodek:root data.mace_protection.title set value "Mace Protection"
+data modify storage jodek:root data.mace_protection.link set value mace-protection
+
 data modify storage jodek:root data.mace_protection_unicode set value "✓"
 data modify storage jodek:root data.mace_protection_color set value green

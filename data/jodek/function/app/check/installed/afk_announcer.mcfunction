@@ -13,5 +13,9 @@ data modify storage jodek:root data.afk_announcer.status set value jodek.install
 data modify storage jodek:root data.afk_announcer.status_fallback set value Installed
 data modify storage jodek:root data.afk_announcer.color set value green
 
+data modify storage jodek:root data.afk_announcer.id set value afk_announcer
+data modify storage jodek:root data.afk_announcer.title set value "AFK Announcer"
+data modify storage jodek:root data.afk_announcer.link set value afk-announcer
+
 data modify storage jodek:root data.afk_announcer_unicode set value "✓"
 data modify storage jodek:root data.afk_announcer_color set value green

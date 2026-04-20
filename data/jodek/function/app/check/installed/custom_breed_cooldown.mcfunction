@@ -13,5 +13,9 @@ data modify storage jodek:root data.custom_breed_cooldown.status set value jodek
 data modify storage jodek:root data.custom_breed_cooldown.status_fallback set value Installed
 data modify storage jodek:root data.custom_breed_cooldown.color set value green
 
+data modify storage jodek:root data.custom_breed_cooldown.id set value custom_breed_cooldown
+data modify storage jodek:root data.custom_breed_cooldown.title set value "Custom Breed Cooldown"
+data modify storage jodek:root data.custom_breed_cooldown.link set value custom-breed-cooldown
+
 data modify storage jodek:root data.custom_breed_cooldown_unicode set value "✓"
 data modify storage jodek:root data.custom_breed_cooldown_color set value green

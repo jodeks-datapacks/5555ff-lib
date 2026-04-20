@@ -13,5 +13,9 @@ data modify storage jodek:root data.no_creeper_grief.status set value jodek.inst
 data modify storage jodek:root data.no_creeper_grief.status_fallback set value Installed
 data modify storage jodek:root data.no_creeper_grief.color set value green
 
+data modify storage jodek:root data.no_creeper_grief.id set value no_creeper_grief
+data modify storage jodek:root data.no_creeper_grief.title set value "No Creeper Grief"
+data modify storage jodek:root data.no_creeper_grief.link set value no-creeper-grief
+
 data modify storage jodek:root data.no_creeper_grief_unicode set value "✓"
 data modify storage jodek:root data.no_creeper_grief_color set value green

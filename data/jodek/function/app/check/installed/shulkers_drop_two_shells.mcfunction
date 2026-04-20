@@ -13,5 +13,9 @@ data modify storage jodek:root data.shulkers_drop_two_shells.status set value jo
 data modify storage jodek:root data.shulkers_drop_two_shells.status_fallback set value Installed
 data modify storage jodek:root data.shulkers_drop_two_shells.color set value green
 
+data modify storage jodek:root data.shulkers_drop_two_shells.id set value shulkers_drop_two_shells
+data modify storage jodek:root data.shulkers_drop_two_shells.title set value "Shulkers Drop Two Shells"
+data modify storage jodek:root data.shulkers_drop_two_shells.link set value shulkers-drop-two-shells
+
 data modify storage jodek:root data.shulkers_drop_two_shells_unicode set value "✓"
 data modify storage jodek:root data.shulkers_drop_two_shells_color set value green

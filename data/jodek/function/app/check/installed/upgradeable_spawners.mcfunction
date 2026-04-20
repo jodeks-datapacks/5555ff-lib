@@ -13,5 +13,9 @@ data modify storage jodek:root data.upgradeable_spawners.status set value jodek.
 data modify storage jodek:root data.upgradeable_spawners.status_fallback set value Installed
 data modify storage jodek:root data.upgradeable_spawners.color set value green
 
+data modify storage jodek:root data.upgradeable_spawners.id set value upgradeable_spawners
+data modify storage jodek:root data.upgradeable_spawners.title set value "Upgradeable Spawners"
+data modify storage jodek:root data.upgradeable_spawners.link set value upgradeable-spawners
+
 data modify storage jodek:root data.upgradeable_spawners_unicode set value "✓"
 data modify storage jodek:root data.upgradeable_spawners_color set value green

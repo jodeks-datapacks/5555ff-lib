@@ -13,5 +13,9 @@ data modify storage jodek:root data.mine_glass_without_silk_touch.status set val
 data modify storage jodek:root data.mine_glass_without_silk_touch.status_fallback set value Installed
 data modify storage jodek:root data.mine_glass_without_silk_touch.color set value green
 
+data modify storage jodek:root data.mine_glass_without_silk_touch.id set value mine_glass_without_silk_touch
+data modify storage jodek:root data.mine_glass_without_silk_touch.title set value "Mine Glass Without Silk Touch"
+data modify storage jodek:root data.mine_glass_without_silk_touch.link set value mine-glass-without-silk-touch
+
 data modify storage jodek:root data.mine_glass_without_silk_touch_unicode set value "✓"
 data modify storage jodek:root data.mine_glass_without_silk_touch_color set value green

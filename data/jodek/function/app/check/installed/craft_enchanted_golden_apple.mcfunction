@@ -13,5 +13,9 @@ data modify storage jodek:root data.craft_enchanted_golden_apple.status set valu
 data modify storage jodek:root data.craft_enchanted_golden_apple.status_fallback set value Installed
 data modify storage jodek:root data.craft_enchanted_golden_apple.color set value green
 
+data modify storage jodek:root data.craft_enchanted_golden_apple.id set value craft_enchanted_golden_apple
+data modify storage jodek:root data.craft_enchanted_golden_apple.title set value "Craft Enchanted Golden Apple"
+data modify storage jodek:root data.craft_enchanted_golden_apple.link set value craft-enchanted-golden-apple
+
 data modify storage jodek:root data.craft_enchanted_golden_apple_unicode set value "✓"
 data modify storage jodek:root data.craft_enchanted_golden_apple_color set value green

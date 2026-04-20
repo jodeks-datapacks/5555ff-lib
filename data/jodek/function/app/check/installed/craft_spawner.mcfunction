@@ -13,5 +13,9 @@ data modify storage jodek:root data.craft_spawner.status set value jodek.install
 data modify storage jodek:root data.craft_spawner.status_fallback set value Installed
 data modify storage jodek:root data.craft_spawner.color set value green
 
+data modify storage jodek:root data.craft_spawner.id set value craft_spawner
+data modify storage jodek:root data.craft_spawner.title set value "Craft Spawner"
+data modify storage jodek:root data.craft_spawner.link set value craft-spawner
+
 data modify storage jodek:root data.craft_spawner_unicode set value "✓"
 data modify storage jodek:root data.craft_spawner_color set value green

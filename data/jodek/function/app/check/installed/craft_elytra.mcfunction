@@ -13,5 +13,9 @@ data modify storage jodek:root data.craft_elytra.status set value jodek.installe
 data modify storage jodek:root data.craft_elytra.status_fallback set value Installed
 data modify storage jodek:root data.craft_elytra.color set value green
 
+data modify storage jodek:root data.craft_elytra.id set value craft_elytra
+data modify storage jodek:root data.craft_elytra.title set value "Craft Elytra"
+data modify storage jodek:root data.craft_elytra.link set value craft-elytra
+
 data modify storage jodek:root data.craft_elytra_unicode set value "✓"
 data modify storage jodek:root data.craft_elytra_color set value green

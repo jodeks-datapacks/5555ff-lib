@@ -13,5 +13,9 @@ data modify storage jodek:root data.call_your_cat.status set value jodek.install
 data modify storage jodek:root data.call_your_cat.status_fallback set value Installed
 data modify storage jodek:root data.call_your_cat.color set value green
 
+data modify storage jodek:root data.call_your_cat.id set value call_your_cat
+data modify storage jodek:root data.call_your_cat.title set value "Call Your Cat"
+data modify storage jodek:root data.call_your_cat.link set value call-your-cat
+
 data modify storage jodek:root data.call_your_cat_unicode set value "✓"
 data modify storage jodek:root data.call_your_cat_color set value green

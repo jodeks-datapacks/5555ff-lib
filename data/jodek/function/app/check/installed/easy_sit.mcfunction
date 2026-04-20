@@ -13,5 +13,9 @@ data modify storage jodek:root data.easy_sit.status set value jodek.installed
 data modify storage jodek:root data.easy_sit.status_fallback set value Installed
 data modify storage jodek:root data.easy_sit.color set value green
 
+data modify storage jodek:root data.easy_sit.id set value easy_sit
+data modify storage jodek:root data.easy_sit.title set value "Easy Sit"
+data modify storage jodek:root data.easy_sit.link set value easy-sit
+
 data modify storage jodek:root data.easy_sit_unicode set value "✓"
 data modify storage jodek:root data.easy_sit_color set value green

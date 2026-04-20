@@ -13,5 +13,9 @@ data modify storage jodek:root data.call_your_parrot.status set value jodek.inst
 data modify storage jodek:root data.call_your_parrot.status_fallback set value Installed
 data modify storage jodek:root data.call_your_parrot.color set value green
 
+data modify storage jodek:root data.call_your_parrot.id set value call_your_parrot
+data modify storage jodek:root data.call_your_parrot.title set value "Call Your Parrot"
+data modify storage jodek:root data.call_your_parrot.link set value call-your-parrot
+
 data modify storage jodek:root data.call_your_parrot_unicode set value "✓"
 data modify storage jodek:root data.call_your_parrot_color set value green

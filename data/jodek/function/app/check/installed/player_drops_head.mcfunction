@@ -13,5 +13,9 @@ data modify storage jodek:root data.player_drops_head.status set value jodek.ins
 data modify storage jodek:root data.player_drops_head.status_fallback set value Installed
 data modify storage jodek:root data.player_drops_head.color set value green
 
+data modify storage jodek:root data.player_drops_head.id set value player_drops_head
+data modify storage jodek:root data.player_drops_head.title set value "Player Drops Head"
+data modify storage jodek:root data.player_drops_head.link set value player-drops-head
+
 data modify storage jodek:root data.player_drops_head_unicode set value "✓"
 data modify storage jodek:root data.player_drops_head_color set value green

@@ -13,5 +13,9 @@ data modify storage jodek:root data.invisible_player_name.status set value jodek
 data modify storage jodek:root data.invisible_player_name.status_fallback set value Installed
 data modify storage jodek:root data.invisible_player_name.color set value green
 
+data modify storage jodek:root data.invisible_player_name.id set value invisible_player_name
+data modify storage jodek:root data.invisible_player_name.title set value "Invisible Player Name"
+data modify storage jodek:root data.invisible_player_name.link set value invisible-player-name
+
 data modify storage jodek:root data.invisible_player_name_unicode set value "✓"
 data modify storage jodek:root data.invisible_player_name_color set value green

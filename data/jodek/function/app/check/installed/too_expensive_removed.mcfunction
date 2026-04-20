@@ -13,5 +13,9 @@ data modify storage jodek:root data.too_expensive_removed.status set value jodek
 data modify storage jodek:root data.too_expensive_removed.status_fallback set value Installed
 data modify storage jodek:root data.too_expensive_removed.color set value green
 
+data modify storage jodek:root data.too_expensive_removed.id set value too_expensive_removed
+data modify storage jodek:root data.too_expensive_removed.title set value "Too Expensive Removed"
+data modify storage jodek:root data.too_expensive_removed.link set value too-expensive-removed
+
 data modify storage jodek:root data.too_expensive_removed_unicode set value "✓"
 data modify storage jodek:root data.too_expensive_removed_color set value green

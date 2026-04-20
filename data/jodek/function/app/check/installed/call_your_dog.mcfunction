@@ -13,5 +13,9 @@ data modify storage jodek:root data.call_your_dog.status set value jodek.install
 data modify storage jodek:root data.call_your_dog.status_fallback set value Installed
 data modify storage jodek:root data.call_your_dog.color set value green
 
+data modify storage jodek:root data.call_your_dog.id set value call_your_dog
+data modify storage jodek:root data.call_your_dog.title set value "Call Your Dog"
+data modify storage jodek:root data.call_your_dog.link set value call-your-dog
+
 data modify storage jodek:root data.call_your_dog_unicode set value "✓"
 data modify storage jodek:root data.call_your_dog_color set value green

@@ -13,5 +13,9 @@ data modify storage jodek:root data.mob_heads_powers.status set value jodek.inst
 data modify storage jodek:root data.mob_heads_powers.status_fallback set value Installed
 data modify storage jodek:root data.mob_heads_powers.color set value green
 
+data modify storage jodek:root data.mob_heads_powers.id set value mob_heads_powers
+data modify storage jodek:root data.mob_heads_powers.title set value "Mob Heads Powers"
+data modify storage jodek:root data.mob_heads_powers.link set value mob-heads-powers
+
 data modify storage jodek:root data.mob_heads_powers_unicode set value "✓"
 data modify storage jodek:root data.mob_heads_powers_color set value green

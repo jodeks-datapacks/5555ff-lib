@@ -13,5 +13,9 @@ data modify storage jodek:root data.swift_flight.status set value jodek.installe
 data modify storage jodek:root data.swift_flight.status_fallback set value Installed
 data modify storage jodek:root data.swift_flight.color set value green
 
+data modify storage jodek:root data.swift_flight.id set value swift_flight
+data modify storage jodek:root data.swift_flight.title set value "Swift Flight"
+data modify storage jodek:root data.swift_flight.link set value swift-flight
+
 data modify storage jodek:root data.swift_flight_unicode set value "✓"
 data modify storage jodek:root data.swift_flight_color set value green

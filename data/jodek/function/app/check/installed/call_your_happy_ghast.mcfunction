@@ -13,5 +13,9 @@ data modify storage jodek:root data.call_your_happy_ghast.status set value jodek
 data modify storage jodek:root data.call_your_happy_ghast.status_fallback set value Installed
 data modify storage jodek:root data.call_your_happy_ghast.color set value green
 
+data modify storage jodek:root data.call_your_happy_ghast.id set value call_your_happy_ghast
+data modify storage jodek:root data.call_your_happy_ghast.title set value "Call Your Happy Ghast"
+data modify storage jodek:root data.call_your_happy_ghast.link set value call-your-happy-ghast
+
 data modify storage jodek:root data.call_your_happy_ghast_unicode set value "✓"
 data modify storage jodek:root data.call_your_happy_ghast_color set value green

@@ -13,5 +13,9 @@ data modify storage jodek:root data.name_tag.status set value jodek.installed
 data modify storage jodek:root data.name_tag.status_fallback set value Installed
 data modify storage jodek:root data.name_tag.color set value green
 
+data modify storage jodek:root data.name_tag.id set value name_tag
+data modify storage jodek:root data.name_tag.title set value "Name Tag"
+data modify storage jodek:root data.name_tag.link set value name-tag
+
 data modify storage jodek:root data.name_tag_unicode set value "✓"
 data modify storage jodek:root data.name_tag_color set value green

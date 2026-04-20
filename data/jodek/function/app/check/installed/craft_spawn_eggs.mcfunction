@@ -13,5 +13,9 @@ data modify storage jodek:root data.craft_spawn_eggs.status set value jodek.inst
 data modify storage jodek:root data.craft_spawn_eggs.status_fallback set value Installed
 data modify storage jodek:root data.craft_spawn_eggs.color set value green
 
+data modify storage jodek:root data.craft_spawn_eggs.id set value craft_spawn_eggs
+data modify storage jodek:root data.craft_spawn_eggs.title set value "Craft Spawn Eggs"
+data modify storage jodek:root data.craft_spawn_eggs.link set value craft-spawn-eggs
+
 data modify storage jodek:root data.craft_spawn_eggs_unicode set value "✓"
 data modify storage jodek:root data.craft_spawn_eggs_color set value green

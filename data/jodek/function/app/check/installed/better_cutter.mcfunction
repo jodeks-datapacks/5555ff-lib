@@ -14,5 +14,9 @@ data modify storage jodek:root data.better_cutter.status set value jodek.install
 data modify storage jodek:root data.better_cutter.status_fallback set value Installed
 data modify storage jodek:root data.better_cutter.color set value green
 
+data modify storage jodek:root data.better_cutter.id set value better_cutter
+data modify storage jodek:root data.better_cutter.title set value "Better Cutter"
+data modify storage jodek:root data.better_cutter.link set value better-cutter
+
 data modify storage jodek:root data.better_cutter_unicode set value "✓"
 data modify storage jodek:root data.better_cutter_color set value green

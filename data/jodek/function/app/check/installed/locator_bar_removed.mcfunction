@@ -13,5 +13,9 @@ data modify storage jodek:root data.locator_bar_removed.status set value jodek.i
 data modify storage jodek:root data.locator_bar_removed.status_fallback set value Installed
 data modify storage jodek:root data.locator_bar_removed.color set value green
 
+data modify storage jodek:root data.locator_bar_removed.id set value locator_bar_removed
+data modify storage jodek:root data.locator_bar_removed.title set value "Locator Bar Removed"
+data modify storage jodek:root data.locator_bar_removed.link set value locator-bar-removed
+
 data modify storage jodek:root data.locator_bar_removed_unicode set value "✓"
 data modify storage jodek:root data.locator_bar_removed_color set value green

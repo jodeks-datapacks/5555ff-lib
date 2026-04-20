@@ -13,5 +13,9 @@ data modify storage jodek:root data.bat_membrane.status set value jodek.installe
 data modify storage jodek:root data.bat_membrane.status_fallback set value Installed
 data modify storage jodek:root data.bat_membrane.color set value green
 
+data modify storage jodek:root data.bat_membrane.id set value bat_membrane
+data modify storage jodek:root data.bat_membrane.title set value "Bat Membrane"
+data modify storage jodek:root data.bat_membrane.link set value bat-membrane
+
 data modify storage jodek:root data.bat_membrane_unicode set value "✓"
 data modify storage jodek:root data.bat_membrane_color set value green

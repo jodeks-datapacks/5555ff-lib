@@ -13,5 +13,9 @@ data modify storage jodek:root data.mineable_spawner.status set value jodek.inst
 data modify storage jodek:root data.mineable_spawner.status_fallback set value Installed
 data modify storage jodek:root data.mineable_spawner.color set value green
 
+data modify storage jodek:root data.mineable_spawner.id set value mineable_spawner
+data modify storage jodek:root data.mineable_spawner.title set value "Mineable Spawner"
+data modify storage jodek:root data.mineable_spawner.link set value mineable-spawner
+
 data modify storage jodek:root data.mineable_spawner_unicode set value "✓"
 data modify storage jodek:root data.mineable_spawner_color set value green

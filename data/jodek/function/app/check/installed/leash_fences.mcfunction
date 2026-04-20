@@ -13,5 +13,9 @@ data modify storage jodek:root data.leash_fences.status set value jodek.installe
 data modify storage jodek:root data.leash_fences.status_fallback set value Installed
 data modify storage jodek:root data.leash_fences.color set value green
 
+data modify storage jodek:root data.leash_fences.id set value leash_fences
+data modify storage jodek:root data.leash_fences.title set value "Leash Fences"
+data modify storage jodek:root data.leash_fences.link set value leash-fences
+
 data modify storage jodek:root data.leash_fences_unicode set value "✓"
 data modify storage jodek:root data.leash_fences_color set value green
