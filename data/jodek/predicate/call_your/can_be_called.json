@@ -1,6 +1,15 @@
 [
   {
-    "condition": "minecraft:reference",
-    "name": "call_your_horse:callable"
+    "condition": "minecraft:any_of",
+    "terms": [
+      {
+        "condition": "minecraft:reference",
+        "name": "call_your_nautilus:callable"
+      },
+      {
+        "condition": "minecraft:reference",
+        "name": "call_your_horse:callable"
+      }
+    ]
   }
 ]

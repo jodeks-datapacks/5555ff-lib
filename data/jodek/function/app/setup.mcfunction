@@ -21,7 +21,4 @@ scoreboard objectives add call_your.raycast_hit dummy
 scoreboard objectives add call_your.raycast_distance dummy
 scoreboard objectives add call_your.raycast_check dummy
 
-scoreboard objectives add call_your.sneak_time custom:sneak_time
-scoreboard players set @a call_your.sneak_time 0
-
 scoreboard objectives add call_your.position dummy
