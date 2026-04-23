@@ -9,6 +9,22 @@
       {
         "condition": "minecraft:reference",
         "name": "call_your_horse:callable"
+      },
+      {
+        "condition": "minecraft:reference",
+        "name": "call_your_dog:callable"
+      },
+      {
+        "condition": "minecraft:reference",
+        "name": "call_your_cat:callable"
+      },
+      {
+        "condition": "minecraft:reference",
+        "name": "call_your_parrot:callable"
+      },
+      {
+        "condition": "minecraft:reference",
+        "name": "call_your_happy_ghast:callable"
       }
     ]
   }
