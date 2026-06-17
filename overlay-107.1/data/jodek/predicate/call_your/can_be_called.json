@@ -21,6 +21,10 @@
       {
         "condition": "minecraft:reference",
         "name": "jodek:call_your/horse"
+      },
+      {
+        "condition": "minecraft:reference",
+        "name": "jodek:call_your/nautilus"
       }
     ]
   }
