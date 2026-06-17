@@ -15,7 +15,16 @@
       "entries": [
         {
           "type": "minecraft:loot_table",
-          "value": "mob_heads:entities/sheep/green"
+          "value": "mob_heads:entities/sheep/adult/green"
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "value": "mob_heads:entities/sheep/adult/jeb_"
         }
       ]
     },

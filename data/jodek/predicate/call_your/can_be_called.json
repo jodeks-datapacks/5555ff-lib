@@ -4,27 +4,23 @@
     "terms": [
       {
         "condition": "minecraft:reference",
-        "name": "call_your_nautilus:callable"
+        "name": "jodek:call_your/cat"
       },
       {
         "condition": "minecraft:reference",
-        "name": "call_your_horse:callable"
+        "name": "jodek:call_your/dog"
       },
       {
         "condition": "minecraft:reference",
-        "name": "call_your_dog:callable"
+        "name": "jodek:call_your/happy_ghast"
       },
       {
         "condition": "minecraft:reference",
-        "name": "call_your_cat:callable"
+        "name": "jodek:call_your/parrot"
       },
       {
         "condition": "minecraft:reference",
-        "name": "call_your_parrot:callable"
-      },
-      {
-        "condition": "minecraft:reference",
-        "name": "call_your_happy_ghast:callable"
+        "name": "jodek:call_your/happy_ghast"
       }
     ]
   }
